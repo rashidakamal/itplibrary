@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ITP Library",
+  "name": "A digital home for the ITP Library",
   "icons": [
     {
       "src": "favicon.ico",

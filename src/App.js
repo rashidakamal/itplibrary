@@ -9,6 +9,8 @@ import {
 	ResponsiveContext
  } from 'grommet'; 
 import { FormClose, Notification } from 'grommet-icons'; 
+import AuthExample from './components/AuthExample'
+
 
 const theme = {
   global: {
@@ -64,7 +66,7 @@ const App = () =>  {
 							elevation='small'
 							align='center'
 							justify='center'>
-								sidebar
+								sidebar<AuthExample/>
 						</Box>
 					</Collapsible>
 					): (
@@ -86,9 +88,9 @@ const App = () =>  {
 								background='light-2'
 								align='center'
 								justify='center'>
-								sidebar
+								sidebar<AuthExample/>
 							</Box>
-							
+
 						</Layer>
 					)}
               </Box>

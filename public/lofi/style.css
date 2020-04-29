@@ -1,0 +1,154 @@
+
+/* COLORS
+
+DARK GREY: #1B1F2A;
+LIGHT GREY: #EFEFEF;
+PINK: #F6C3CC;
+LAVENDAR: #DAD1FC;
+YELLOW: #FAD849;
+PEACH: #F4A98E;
+MINTY-GREEN: #9ff2b5;
+
+*/
+
+.custom-bg {
+	background-color: #1B1F2A;
+}
+
+a {
+	color: #fff; 
+	text-transform: uppercase; 
+	font-weight: bold;
+}
+
+a:hover {
+	color: #FAD849; 
+}
+body {
+	background-color: #d9d9d9; 	
+	color:#1B1F2A;  
+	font-family: 'Archivo', sans-serif;
+}
+
+h1 {
+	padding-top: 20px;
+	margin-top: 50px;
+	font-family: 'Archivo', sans-serif;
+	font-weight: 700; 
+}
+
+.container{
+	margin-top: 20px; 
+	background-color: #fff;
+	padding: 3.5rem;
+	padding-top: 2rem;
+}
+
+.helton {
+	background-color: #F4A98E; 
+	padding: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-o-border-radius: 2px;
+		-ms-border-radius: 2px;
+		border-radius: 2px;
+}
+
+.adler {
+	background-color: #DAD1FC;
+	padding: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-o-border-radius: 2px;
+		-ms-border-radius: 2px;
+		border-radius: 2px;
+}
+
+.springer {
+	background-color: #FAD849;
+	padding: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-o-border-radius: 2px;
+		-ms-border-radius: 2px;
+		border-radius: 2px;
+}
+
+.porter {
+	background-color: #F6C3CC;
+	padding: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-o-border-radius: 2px;
+		-ms-border-radius: 2px;
+		border-radius: 2px;
+}
+
+.warburg {
+	background-color: #9ff2b5;
+	padding: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-o-border-radius: 2px;
+		-ms-border-radius: 2px;
+		border-radius: 2px;
+}
+
+.see_more {
+	background-color: #1B1F2A;
+	color: #fff;
+	padding: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-o-border-radius: 2px;
+		-ms-border-radius: 2px;
+		border-radius: 2px;
+}
+
+/*https://www.w3schools.com/howto/howto_css_flip_card.asp */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+/*  width: 300px;
+  height: 200px;*/
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}

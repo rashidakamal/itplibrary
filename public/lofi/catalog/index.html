@@ -4,6 +4,8 @@
 <!-- CODE SOURCE: https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8 -->
  <meta charset="utf-8">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="../style.css">
  <script src="https://d3js.org/d3.v4.min.js"></script>
 <style>
 
@@ -25,11 +27,67 @@ text {
   font-size: 10px;
 }
 
+.network {
+  margin-top: 3rem;
+}
+
+.info_box {
+  background-color: #fff;
+  width: 25rem;
+  margin: 5rem;
+  padding: 1rem;
+
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 10;
+  visibility: hidden;
+
+  border: 4px solid black;
+
+/*  border-color: #1B1F2A;
+  border-style: solid;
+  border: 2px;*/
+}
+
+.info_box a {
+  background-color: #FAD849;
+  color: #1B1F2A;
+  padding: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+
+
 </style>
 </head>
 <body>
 
-<center><svg width="1200" height="900"></svg></center>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <nav class="navbar sticky-top navbar-light custom-bg justify-content-end">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">What Can A Library Do?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1ycNg8MAka94DMmlJPHNoe8LL8591ddVXpC-hw4wxneY/edit?usp=sharing">Catalog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Process</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <div class="network"><center><svg width="1200" height="900"></svg></center></div>
+  <div class="info_box">tesst</div>
 <script>
 
 var svg = d3.select("svg"),
@@ -67,6 +125,21 @@ d3.json("bib.json", function(error, graph) {
     .attr("fill", function(d) { 
       // console.log(color(d.group));
       return color(d.group); })
+    .on("click", function(d) {
+      console.log("I've been clicked");
+
+      console.log(d);
+      var htmlContent = "<strong>" + d.title + "</strong><br><hr>";
+      htmlContent += "<strong>Author: </strong>" + d.author_first + " " + d.author_last+ "<br>";
+      htmlContent += "<strong>Type: </strong>" + d.group+ "<br>";
+      htmlContent += "<strong>Year: </strong>" + d.year+ "<br>"; 
+      htmlContent += "<a href=\"" + d.URL + "\">Access here.</a>" + "<br>";
+      htmlContent += "<a href=\"" + "../portals/" + d.path + ".html" + "\">Portal view.</a>" + "<br>"; 
+
+      console.log(htmlContent)
+
+      d3.select(".info_box").attr("style", "visibility: visible").html(htmlContent); 
+    })
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
@@ -77,6 +150,8 @@ d3.json("bib.json", function(error, graph) {
         var info = " ";
 
         if ((parseInt(d.id) % 8) == 0) {
+          info = d.title;
+        } else if (parseInt(d.id) == 62){
           info = d.title;
         }
         return info;

@@ -1,17 +1,23 @@
 <!DOCTYPE html>
+<head>
 
 <!-- CODE SOURCE: https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8 -->
  <meta charset="utf-8">
+
+ <script src="https://d3js.org/d3.v4.min.js"></script>
 <style>
 
+body {
+  background-color: #ece8fd;
+}
 .links line {
   stroke: #999;
   stroke-opacity: 0.6;
 }
 
 .nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
+  stroke: #ece8fd;
+  stroke-width: 2px;
 }
 
 text {
@@ -20,22 +26,26 @@ text {
 }
 
 </style>
-<svg width="960" height="600"></svg>
-<script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+
+<center><svg width="1200" height="900"></svg></center>
 <script>
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
 
-var color = d3.scaleOrdinal(d3.schemeCategory20);
+var custom_colors = ["#1B1F2A", "#EFEFEF", "#F6C3CC", "#DAD1FC", "#FAD849", "#F4A98E", "#9ff2b5"];
+// var color = d3.scaleOrdinal(d3.schemeCategory20);
+var color = d3.scaleOrdinal(custom_colors);
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
-d3.json("test.json", function(error, graph) {
+d3.json("bib.json", function(error, graph) {
   if (error) throw error;
 
   var link = svg.append("g")
@@ -53,8 +63,10 @@ d3.json("test.json", function(error, graph) {
     
   var circles = node.append("circle")
   
-    .attr("r", 5)
-    .attr("fill", function(d) { return color(d.group); })
+    .attr("r", 10)
+    .attr("fill", function(d) { 
+      // console.log(color(d.group));
+      return color(d.group); })
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
@@ -62,13 +74,18 @@ d3.json("test.json", function(error, graph) {
 
   var lables = node.append("text")
       .text(function(d) {
-        return d.id;
+        var info = " ";
+
+        if ((parseInt(d.id) % 8) == 0) {
+          info = d.title;
+        }
+        return info;
       })
       .attr('x', 6)
       .attr('y', 3);
 
   node.append("title")
-      .text(function(d) { return d.id; });
+  .text(function(d) { return d.author_first; });
 
   simulation
       .nodes(graph.nodes)
@@ -92,20 +109,24 @@ d3.json("test.json", function(error, graph) {
 });
 
 function dragstarted(d) {
-  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-  d.fx = d.x;
-  d.fy = d.y;
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
 }
 
 function dragged(d) {
-  d.fx = d3.event.x;
-  d.fy = d3.event.y;
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
 }
 
 function dragended(d) {
-  if (!d3.event.active) simulation.alphaTarget(0);
-  d.fx = null;
-  d.fy = null;
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
 }
 
 </script>
+  
+
+
+</body>

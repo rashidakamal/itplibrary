@@ -1,0 +1,3011 @@
+{
+  "nodes": [
+  {
+    "id": "1",
+    "title": "The New Downtown Library: Designing with Communities",
+    "group": "Book",
+    "path": "001-downtown-library",
+    "author_first": "Shannon",
+    "author_last": "Mattern",
+    "year": "2007",
+    "URL": "none"
+  },
+  {
+    "id": "2",
+    "title": "What Do you Mean by Archive?",
+    "group": "Blog Post",
+    "path": "002-mean-by-archive",
+    "author_first": "Trevor",
+    "author_last": "Owens",
+    "year": "2014",
+    "URL": "https://blogs.loc.gov/thesignal/2014/02/what-do-you-mean-by-archive-genres-of-usage-for-digital-preservers/"
+  },
+  {
+    "id": "3",
+    "title": "Eros in the library: Considering the aesthetics of knowledge organization.",
+    "group": "Article",
+    "path": "003-eros-aesthetics",
+    "author_first": "Melissa",
+    "author_last": "Adler",
+    "year": "2019",
+    "URL": "https://www.are.na/block/4090888"
+  },
+  {
+    "id": "4",
+    "title": "Archive Fever",
+    "group": "Book",
+    "path": "004-archive-fever",
+    "author_first": "Jacques",
+    "author_last": "Derida",
+    "year": "2017",
+    "URL": "http://artsites.ucsc.edu/sdaniel/230/derrida_archivefever.pdf"
+  },
+  {
+    "id": "5",
+    "title": "Books After the Death of the Book",
+    "group": "Article",
+    "path": "005-books-after-death",
+    "author_first": "Matthew G",
+    "author_last": "Kirschenbaum",
+    "year": "2017",
+    "URL": "https://www.publicbooks.org/books-after-the-death-of-the-book/"
+  },
+  {
+    "id": "6",
+    "title": "The Library as Infrastructure",
+    "group": "Article",
+    "path": "006-library-infrastructure",
+    "author_first": "Shannon",
+    "author_last": "Mattern",
+    "year": "2014",
+    "URL": "https://placesjournal.org/article/library-as-infrastructure/"
+  },
+  {
+    "id": "7",
+    "title": "Fugitive Libraries",
+    "group": "Article",
+    "path": "007-fugitive-libraries",
+    "author_first": "Shannon",
+    "author_last": "Mattern",
+    "year": "2019",
+    "URL": "https://placesjournal.org/article/fugitive-libraries/"
+  },
+  {
+    "id": "8",
+    "title": "Library as Platform",
+    "group": "Article",
+    "path": "008-library-platform",
+    "author_first": "David",
+    "author_last": "Weinberger",
+    "year": "2012",
+    "URL": "https://www.libraryjournal.com/?detailStory=by-david-weinberger"
+  },
+  {
+    "id": "9",
+    "title": "How Buildings Learn",
+    "group": "Book",
+    "path": "009-buildings-learn",
+    "author_first": "Stewart",
+    "author_last": "Brand",
+    "year": "1997",
+    "URL": "none"
+  },
+  {
+    "id": "10",
+    "title": "The Library Beyond The Book",
+    "group": "Book",
+    "path": "010-beyond-book",
+    "author_first": "Jeffrey; Matthew",
+    "author_last": "Schnapp; Battles",
+    "year": "2014",
+    "URL": "none"
+  },
+  {
+    "id": "11",
+    "title": "The Clock of the Long Now",
+    "group": "Book",
+    "path": "011-clock-long-now",
+    "author_first": "Stewart",
+    "author_last": "Brand",
+    "year": "1999",
+    "URL": "none"
+  },
+  {
+    "id": "12",
+    "title": "News Flows, Consciousness Streams: The Headwaters of a River of Words",
+    "group": "Journalism",
+    "path": "012-news-flows",
+    "author_first": "Randy",
+    "author_last": "Kennedy",
+    "year": "2007",
+    "URL": "https://www.nytimes.com/2007/10/25/arts/design/25vide.html"
+  },
+  {
+    "id": "13",
+    "title": "Cybernetics Library Slack",
+    "group": "none",
+    "path": "013-cybernetics-library",
+    "author_first": "-",
+    "author_last": "-",
+    "year": "2020",
+    "URL": "cyberneticslibrary.slack.com"
+  },
+  {
+    "id": "14",
+    "title": "This Traveling Library Is Making Sure \"Black Women\u2019s Literature Has the Place It Deserves\"",
+    "group": "Journalism",
+    "path": "014-traveling-library",
+    "author_first": "Char",
+    "author_last": "Adams",
+    "year": "2019",
+    "URL": "https://www.oprahmag.com/entertainment/books/a27322810/the-free-black-womens-library/"
+  },
+  {
+    "id": "15",
+    "title": "Reporter's Notebook: Looking at Libraries",
+    "group": "Journalism",
+    "path": "015-looking-libraries",
+    "author_first": "Deborah ",
+    "author_last": "Fallows",
+    "year": "2019",
+    "URL": "https://www.theatlantic.com/notes/2019/12/library-photo-essay-2/603742/"
+  },
+  {
+    "id": "16",
+    "title": "Why the Occupy Wall Street Movement Has Libraries",
+    "group": "Article",
+    "path": "016-occupy-library",
+    "author_first": "Barbara",
+    "author_last": "Fister",
+    "year": "2011",
+    "URL": "https://www.libraryjournal.com/?detailStory=why-the-occupy-wall-street-movement-has-libraries-peer-to-peer-review"
+  },
+  {
+    "id": "17",
+    "title": "Why the \u201cOccupy\u201d library is important",
+    "group": "Blog",
+    "path": "017-why-occupy",
+    "author_first": "Paul",
+    "author_last": "Oliver",
+    "year": "2011",
+    "URL": "https://www.mhpbooks.com/why-the-occupy-library-is-important/"
+  },
+  {
+    "id": "18",
+    "title": "The Occupy Wall Street Library",
+    "group": "Journalism",
+    "path": "018-occupy-libraary",
+    "author_first": "Alexia",
+    "author_last": "Nader",
+    "year": "2011",
+    "URL": "https://www.newyorker.com/books/page-turner/the-occupy-wall-street-library"
+  },
+  {
+    "id": "19",
+    "title": "On Archiving Everything: Borges, Calvino, Google",
+    "group": "Blog",
+    "path": "019-archiving-everything",
+    "author_first": "Jonathan",
+    "author_last": "Gray",
+    "year": "2011",
+    "URL": "https://jonathangray.org/2011/08/24/on-archiving-everything-borges-calvino-google/"
+  },
+  {
+    "id": "20",
+    "title": "Why Libraries Have a Public Spirit That Most Museums Lack",
+    "group": "Journalism",
+    "path": "020-public-spirit",
+    "author_first": "Laura",
+    "author_last": "Raicovich",
+    "year": "2011",
+    "URL": "https://hyperallergic.com/525985/why-libraries-have-a-public-spirit-that-most-museums-lack/"
+  },
+  {
+    "id": "21",
+    "title": "Archives in Context and as Context",
+    "group": "Blog",
+    "path": "021-archives-context",
+    "author_first": "Kate",
+    "author_last": "Theimer",
+    "year": "2012",
+    "URL": "http://journalofdigitalhumanities.org/1-2/archives-in-context-and-as-context-by-kate-theimer/"
+  },
+  {
+    "id": "22",
+    "title": "Why I Won't Be Using The Word Archive Anymore",
+    "group": "Blog",
+    "path": "022-word-archive",
+    "author_first": "Joshua",
+    "author_last": "Ranger",
+    "year": "2011",
+    "URL": "https://blog.weareavp.com/why-i-wont-be-using-the-word-archive-anymore"
+  },
+  {
+    "id": "23",
+    "title": "How the Art World Caught Archive Fever",
+    "group": "Journalism",
+    "path": "023-art-archive",
+    "author_first": "",
+    "author_last": "",
+    "year": "2014",
+    "URL": "https://www.artspace.com/magazine/art_101/art_market/the_art_worlds_love_affair_with_archives-51976"
+  },
+  {
+    "id": "24",
+    "title": "Card catalogs and the secret history of modernity",
+    "group": "Journalism",
+    "path": "024-catalog-modernity",
+    "author_first": "Tim",
+    "author_last": "Carmody",
+    "year": "2017",
+    "URL": "https://kottke.org/17/10/card-catalogs-and-the-secret-history-of-modernity"
+  },
+  {
+    "id": "25",
+    "title": "Libraryianship at the Crossroads of ICE Surveillance",
+    "group": "Article",
+    "path": "025-librarianship-ice",
+    "author_first": "Sarah",
+    "author_last": "Lamdan",
+    "year": "2019",
+    "URL": "http://www.inthelibrarywiththeleadpipe.org/2019/ice-surveillance/"
+  },
+  {
+    "id": "26",
+    "title": "Library Metaphors",
+    "group": "Channel",
+    "path": "026-library-metaphors",
+    "author_first": "Kalliopi",
+    "author_last": "Mathios",
+    "year": "2020",
+    "URL": "https://www.are.na/kalliopi-mathios/library-metaphors"
+  },
+  {
+    "id": "27",
+    "title": "Libraries Today",
+    "group": "Channel",
+    "path": "027-libraries-today",
+    "author_first": "Kalliopi",
+    "author_last": "Mathios",
+    "year": "2020",
+    "URL": "https://www.are.na/kalliopi-mathios/libraries-today"
+  },
+  {
+    "id": "28",
+    "title": "The Commodification of the Library Patron",
+    "group": "Article",
+    "path": "028-commodification-library",
+    "author_first": "Kalliopi",
+    "author_last": "Mathios",
+    "year": "2019",
+    "URL": "https://edlab.tc.columbia.edu/blog/23060-Neoliberalism-Platform-Capitalism-and-the-Commodification-of-the-Library-Patron"
+  },
+  {
+    "id": "29",
+    "title": "The Evolution of Institutions for Collective Action ",
+    "group": "Book",
+    "path": "029-institutions-collective",
+    "author_first": "Elinor",
+    "author_last": "Ostrom",
+    "year": "1990",
+    "URL": "https://www.are.na/block/5459552"
+  },
+  {
+    "id": "30",
+    "title": "Reproducing the Future: Essay on Anthropology Kinship and the New Reproductive Technologies",
+    "group": "Book",
+    "path": "030-future-kinship",
+    "author_first": "Marilyn",
+    "author_last": "Strathern",
+    "year": "1992",
+    "URL": "https://www.are.na/block/3727927"
+  },
+  {
+    "id": "31",
+    "title": "Radical cataloging / critical library data",
+    "group": "Channel",
+    "path": "031-radical-cataloging",
+    "author_first": "Sal",
+    "author_last": "Hamerman",
+    "year": "2020",
+    "URL": "https://www.are.na/sal-hamerman/radical-cataloging-critical-library-data"
+  },
+  {
+    "id": "32",
+    "title": "Informational Maintenance as a Practice of Care",
+    "group": "Block",
+    "path": "032-informational-maintenance",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "https://www.are.na/block/4485372"
+  },
+  {
+    "id": "33",
+    "title": "Cybernetics Library Cataloging Documentation",
+    "group": "Document",
+    "path": "033-cybernetics-documentation",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "https://docs.google.com/document/d/1Gv8_Wk4CbcPKUJmiXKw1xEuXFLcH6KLX3KK9VIC2wak/edit"
+  },
+  {
+    "id": "34",
+    "title": "Zine Librarians Code of Ethics",
+    "group": "Zine",
+    "path": "034-zine-librarians",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2015",
+    "URL": "http://zinelibraries.info/code-of-ethics/"
+  },
+  {
+    "id": "35",
+    "title": "The Free Library and Other Histories",
+    "group": "Article",
+    "path": "035-free-library",
+    "author_first": "Ann",
+    "author_last": "Messner",
+    "year": "2018",
+    "URL": "https://www.are.na/block/2649477"
+  },
+  {
+    "id": "36",
+    "title": "Read & Repair feat. The Bootleg Library",
+    "group": "Website",
+    "path": "036-bootleg-library",
+    "author_first": "",
+    "author_last": "Varia",
+    "year": "2020",
+    "URL": "https://varia.zone/en/rr-bootleg.html"
+  },
+  {
+    "id": "37",
+    "title": "As Luck Would Have It: Serendipity and Solace in Digital Research Infrastructure",
+    "group": "Article",
+    "path": "037-serendipity-solace",
+    "author_first": "Deb",
+    "author_last": "Verhoeven",
+    "year": "2016",
+    "URL": "https://fmh.ucpress.edu/content/2/1/7"
+  },
+  {
+    "id": "38",
+    "title": "Preserving Digital Information. Report of the Task Force on Archiving of Digital Information",
+    "group": "Article",
+    "path": "038-preserving-digital",
+    "author_first": "Donald; John",
+    "author_last": "Waters; Garrett",
+    "year": "1996",
+    "URL": "https://eric.ed.gov/?id=ED395602"
+  },
+  {
+    "id": "39",
+    "title": "What are Research Infrastructures?",
+    "group": "Article",
+    "path": "039-research-infrastructure",
+    "author_first": "Sheila",
+    "author_last": "Anderson",
+    "year": "2013",
+    "URL": "https://www.euppublishing.com/doi/10.3366/ijhac.2013.0078"
+  },
+  {
+    "id": "40",
+    "title": "Memory Machines: Infrastructural Performance as an Art Method",
+    "group": "Article",
+    "path": "040-memory-machines",
+    "author_first": "Jussi; Samir",
+    "author_last": "Parikka; Bhowmik",
+    "year": "2022",
+    "URL": "https://mediarxiv.org/z3dc7/"
+  },
+  {
+    "id": "41",
+    "title": "Extract and Preserve: Underground Repositories for a Posthuman Future?",
+    "group": "Article",
+    "path": "041-extract-preserve",
+    "author_first": "Shannon",
+    "author_last": "Mattern",
+    "year": "2019",
+    "URL": "https://www.librarystack.org/extract-and-preserve-underground-repositories-for-a-posthuman-future/"
+  },
+  {
+    "id": "42",
+    "title": "Social infrastructure and the public life of cities: Studying urban sociality and public spaces",
+    "group": "Article",
+    "path": "042-social-infrastructure",
+    "author_first": "Alan; Jack",
+    "author_last": "Latham; Layton",
+    "year": "2019",
+    "URL": "https://onlinelibrary.wiley.com/doi/full/10.1111/gec3.12444"
+  },
+  {
+    "id": "43",
+    "title": "Marginalia: Little Libraries in the Urban Margins",
+    "group": "Article",
+    "path": "043-marginalia-libraries",
+    "author_first": "Shannon",
+    "author_last": "Mattern",
+    "year": "2012",
+    "URL": "https://placesjournal.org/article/marginalia-little-libraries-in-the-urban-margins/"
+  },
+  {
+    "id": "44",
+    "title": "Making Infrastructure: The Dream of a Common Language",
+    "group": "Conference Paper",
+    "path": "044-making-infrastructure",
+    "author_first": "Laura; Susan",
+    "author_last": "Neumann; Leigh Star",
+    "year": "1996",
+    "URL": "https://ojs.ruc.dk/index.php/pdc/article/view/153"
+  },
+  {
+    "id": "45",
+    "title": "On Capacity and Care",
+    "group": "Blog; Talk",
+    "path": "045-capacity-care",
+    "author_first": "Bethany",
+    "author_last": "Nowviskie",
+    "year": "2015",
+    "URL": "http://nowviskie.org/2015/on-capacity-and-care/"
+  },
+  {
+    "id": "46",
+    "title": "Does Every Research Library Need a Digital Humanities Center?",
+    "group": "Article",
+    "path": "046-research-humanities",
+    "author_first": "Jennifer; Ricky",
+    "author_last": "Schaffner; Erway",
+    "year": "2014",
+    "URL": "https://www.oclc.org/research/publications/2014/oclcresearch-digital-humanities-center-2014-overview.html"
+  },
+  {
+    "id": "47",
+    "title": "Stable Random Projection: Lightweight, General-Purpose Dimensionality Reduction for Digitized Libraries",
+    "group": "Article",
+    "path": "047-random-projection",
+    "author_first": "Benjamin",
+    "author_last": "Schmidt",
+    "year": "2018",
+    "URL": "https://culturalanalytics.org/article/11033"
+  },
+  {
+    "id": "48",
+    "title": "The Missing Voice: Archivists and Infrastructures for Humanities Research",
+    "group": "Article",
+    "path": "048-missing-voice",
+    "author_first": "Reto; Petra",
+    "author_last": "Speck; Links",
+    "year": "2013",
+    "URL": "https://www.euppublishing.com/doi/10.3366/ijhac.2013.0085"
+  },
+  {
+    "id": "49",
+    "title": "Radical Militant Librarians",
+    "group": "Channel",
+    "path": "049-radical-librarians",
+    "author_first": "Lars",
+    "author_last": "Hoie",
+    "year": "2020",
+    "URL": "https://www.are.na/lars-hoie/radical-militant-librarians"
+  },
+  {
+    "id": "50",
+    "title": "Shadow Libraries: Access to Knowledge in Global Higher Education",
+    "group": "Book",
+    "path": "050-shadow-libraries",
+    "author_first": "Joe",
+    "author_last": "Karaganis",
+    "year": "2018",
+    "URL": "https://www.are.na/block/5573953"
+  },
+  {
+    "id": "51",
+    "title": "Library Dreams",
+    "group": "Channel",
+    "path": "051-library-dream",
+    "author_first": "Roberto",
+    "author_last": "Greco",
+    "year": "2020",
+    "URL": "https://www.are.na/roberto-greco/library-dreams"
+  },
+  {
+    "id": "52",
+    "title": "Three News Outlets Discover Fresh Collaborators and Audiences in Libraries",
+    "group": "Journalism",
+    "path": "052-news-libraries",
+    "author_first": "Eryn",
+    "author_last": "Carlson",
+    "year": "2019",
+    "URL": "https://niemanreports.org/articles/three-news-outlets-discover-fresh-collaborators-and-audiences-in-libraries/"
+  },
+  {
+    "id": "53",
+    "title": "Libraries",
+    "group": "Channel",
+    "path": "053-libraries",
+    "author_first": "Roberto",
+    "author_last": "Greco",
+    "year": "2020",
+    "URL": "https://www.are.na/roberto-greco/libraries-1524458751"
+  },
+  {
+    "id": "54",
+    "title": "The bookmobiles - Vintage photos of traveling libraries, 1910s-1960s",
+    "group": "Website",
+    "path": "054-bookmobiles",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2018",
+    "URL": "https://rarehistoricalphotos.com/bookmobiles-traveling-libraries-1910s-1960s/"
+  },
+  {
+    "id": "55",
+    "title": "Usufruct",
+    "group": "Article",
+    "path": "055-usufruct",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "https://en.wikipedia.org/wiki/Usufruct"
+  },
+  {
+    "id": "56",
+    "title": "Library Socialism: a utopian vision of a sustaniable, luxuriant future of circulating abundance",
+    "group": "Journalism",
+    "path": "056-library-socialisms",
+    "author_first": " ",
+    "author_last": "Multiple",
+    "year": "2019",
+    "URL": "https://boingboing.net/2019/11/24/usufruct-complementarity-irred.html"
+  },
+  {
+    "id": "57",
+    "title": "Libraries and Archivists Are Scanning and Uploading Books That Are Secretly in the Public Domain",
+    "group": "Journalism",
+    "path": "057-archivists-scanning",
+    "author_first": "Karl",
+    "author_last": "Bode",
+    "year": "2019",
+    "URL": "https://www.vice.com/en_us/article/a3534j/libraries-and-archivists-are-scanning-and-uploading-books-that-are-secretly-in-the-public-domain"
+  },
+  {
+    "id": "58",
+    "title": "Future Library",
+    "group": "Artwork",
+    "path": "058-future-library",
+    "author_first": "Katie",
+    "author_last": "Paterson",
+    "year": "2014",
+    "URL": "https://www.are.na/block/5631855"
+  },
+  {
+    "id": "59",
+    "title": "The bias hiding in your library",
+    "group": "Journalism",
+    "path": "059-bias-library",
+    "author_first": "Amanda",
+    "author_last": "Ros",
+    "year": "2019",
+    "URL": "https://theconversation.com/the-bias-hiding-in-your-library-111951"
+  },
+  {
+    "id": "60",
+    "title": "How Helsinki Built \u2018Book Heaven\u2019",
+    "group": "Journalism",
+    "path": "060-helsinki-heaven",
+    "author_first": "David",
+    "author_last": "Dudley",
+    "year": "2019",
+    "URL": "https://www.citylab.com/design/2019/11/finland-public-library-photos-helsinki-books-nordic-culture/601192/"
+  },
+  {
+    "id": "61",
+    "title": "The Decentralized Public Library",
+    "group": "Website",
+    "path": "061-decentralized-library",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2019",
+    "URL": "https://www.decentralisedpubliclibrary.com/"
+  },
+  {
+    "id": "62",
+    "title": "Fantasies of the Library",
+    "group": "Book",
+    "path": "062-fantasies",
+    "author_first": "Anna-Sophie; Etienne",
+    "author_last": "Springer; Turpin",
+    "year": "2014",
+    "URL": "https://www.are.na/block/3358234"
+  },
+  {
+    "id": "63",
+    "title": "Radical Tactics of the Offline Library",
+    "group": "Book",
+    "path": "063-radical-tactics",
+    "author_first": "Henry",
+    "author_last": "Warwick",
+    "year": "2014",
+    "URL": "https://www.are.na/block/3008778"
+  },
+  {
+    "id": "64",
+    "title": "Library Underground",
+    "group": "Book",
+    "path": "064-library-underground",
+    "author_first": "Eva",
+    "author_last": "Weinmayr",
+    "year": "",
+    "URL": "https://www.are.na/block/1002827"
+  },
+  {
+    "id": "65",
+    "title": "On Decimals, Catalogs, and Racial Imaginaries of Reading",
+    "group": "Article",
+    "path": "065-racial-imaginaries",
+    "author_first": "Laura",
+    "author_last": "Helton",
+    "year": "2019",
+    "URL": "https://www.are.na/block/3794395"
+  },
+  {
+    "id": "66",
+    "title": "The Power to Name: Representation in Library Catalogs",
+    "group": "Article",
+    "path": "066-power-name",
+    "author_first": "Hope",
+    "author_last": "Olson",
+    "year": "2001",
+    "URL": "https://www.are.na/block/2825449"
+  },
+  {
+    "id": "67",
+    "title": "Towards A Library Without Walls",
+    "group": "Blog",
+    "path": "067-without-walls",
+    "author_first": "Karly",
+    "author_last": "Wildenhaus",
+    "year": "2017",
+    "URL": "https://www.are.na/blog/towards-a-library-without-walls"
+  },
+  {
+    "id": "68",
+    "title": "The Interstitial Library",
+    "group": "Website",
+    "path": "068-interstitial-library",
+    "author_first": "Christine; Shelley",
+    "author_last": "Hill; Jackson",
+    "year": "2020",
+    "URL": "http://www.ineradicablestain.com/interstitiallibrary/interstitial.html"
+  },
+  {
+    "id": "69",
+    "title": "Public Library",
+    "group": "Book",
+    "path": "069-public-library",
+    "author_first": "Javna",
+    "author_last": "knjoznica",
+    "year": "2015",
+    "URL": "https://www.are.na/block/3203473"
+  },
+  {
+    "id": "70",
+    "title": "Memory of the World",
+    "group": "Website",
+    "path": "070-memory",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "https://www.are.na/block/3085317"
+  },
+  {
+    "id": "71",
+    "title": "Ghana's Wondrous One-Woman Library",
+    "group": "Blog",
+    "path": "071-ghana-library",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2019",
+    "URL": "https://bookmarks.reviews/ghanas-wondrous-one-woman-library/"
+  },
+  {
+    "id": "72",
+    "title": "What are public libraries for?",
+    "group": "Journalism",
+    "path": "072-libraries-for",
+    "author_first": "Schuyler",
+    "author_last": "Velasco",
+    "year": "2019",
+    "URL": "https://expmag.com/2019/05/what-are-public-libraries-for/"
+  },
+  {
+    "id": "73",
+    "title": "PIRATE LIBRARIES and the fight for open information",
+    "group": "Journalism",
+    "path": "073-pirate-libraries",
+    "author_first": "Sarah",
+    "author_last": "Hamerman",
+    "year": "2015",
+    "URL": "http://www.fvckthemedia.com/issue61/pirate-libraries"
+  },
+  {
+    "id": "74",
+    "title": "Shadow Libraries",
+    "group": "Article",
+    "path": "074-shadow-libraries",
+    "author_first": "Lawrence",
+    "author_last": "Liang",
+    "year": "2012",
+    "URL": "https://www.e-flux.com/journal/37/61228/shadow-libraries/"
+  },
+  {
+    "id": "75",
+    "title": "El Paquete Semanal: How Offline Piracy Flourishes in Cuba",
+    "group": "Journalism",
+    "path": "075-paquete-semenal",
+    "author_first": "Ernesto",
+    "author_last": "",
+    "year": "2015",
+    "URL": "https://torrentfreak.com/el-paquete-semanal-how-offline-piracy-flourishes-in-cuba-151226/"
+  },
+  {
+    "id": "76",
+    "title": "Online Reading Group: Collaborative Libraries",
+    "group": "Website",
+    "path": "076-collaborative-libraries",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "http://consortium.github.io/Collaborative-Libraries/collaborative-libraries.html"
+  },
+  {
+    "id": "77",
+    "title": "The Radical Tactics of the Offline Library",
+    "group": "Video",
+    "path": "077-radical-tactics-video",
+    "author_first": "Henry",
+    "author_last": "Warwick",
+    "year": "2014",
+    "URL": "https://vimeo.com/95351775"
+  },
+  {
+    "id": "78",
+    "title": "Hot Rock, Lost Rock, Router",
+    "group": "Journalism",
+    "path": "078-hot-rock",
+    "author_first": "Geoff",
+    "author_last": "Manaugh",
+    "year": "2016",
+    "URL": "http://www.bldgblog.com/2016/01/hot-rock-lost-rock-router/"
+  },
+  {
+    "id": "79",
+    "title": "The Room of Requirement",
+    "group": "Podcast",
+    "path": "079-room-requirement",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2018",
+    "URL": "https://www.thisamericanlife.org/664/the-room-of-requirement"
+  },
+  {
+    "id": "80",
+    "title": "The Library's Other Intelligences",
+    "group": "Website",
+    "path": "080-other-intelligences",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2019",
+    "URL": "https://fciny.org/projects/the-librarys-other-intelligences"
+  },
+  {
+    "id": "81",
+    "title": "Libraries: Cathedrals of Our Souls",
+    "group": "Journalism",
+    "path": "081-cathedrals",
+    "author_first": "Caitlin",
+    "author_last": "Moran",
+    "year": "2012",
+    "URL": "https://www.huffpost.com/entry/libraries-cathedrals-of-o_b_2103362"
+  },
+  {
+    "id": "82",
+    "title": "This Library Has New Books by Major Authors, but They Can\u2019t Be Read Until 2114",
+    "group": "Journalism",
+    "path": "082-library-2114",
+    "author_first": "Merve",
+    "author_last": "Emre",
+    "year": "2018",
+    "URL": "https://www.nytimes.com/2018/11/01/t-magazine/future-library-books.html"
+  },
+  {
+    "id": "83",
+    "title": "Introducing the Public Library Innovation Exchange (PLIX)",
+    "group": "Website",
+    "path": "083-plix",
+    "author_first": "Katherine",
+    "author_last": "McConachie",
+    "year": "2017",
+    "URL": "https://www.media.mit.edu/posts/introducing-the-public-library-innovation-exchange/"
+  },
+  {
+    "id": "84",
+    "title": "Seattle library hides 1,000 books around town for young people to find",
+    "group": "Journalism",
+    "path": "084-hides-books",
+    "author_first": "Cory",
+    "author_last": "Doctorow",
+    "year": "2012",
+    "URL": "https://boingboing.net/2012/05/11/seattle-library-hides-1000-bo.html"
+  },
+  {
+    "id": "85",
+    "title": "Library Test Kitchen",
+    "group": "Website",
+    "path": "085-test-kitchen",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2011",
+    "URL": "https://librarytestkitchen.org/"
+  },
+  {
+    "id": "86",
+    "title": "Precedents for Experimentation: Talking Libraries with Shannon Mattern and Nate Hill",
+    "group": "Article",
+    "path": "086-precedents-experimentation",
+    "author_first": "Shannon; Nate",
+    "author_last": "Mattern; Hill",
+    "year": "2014",
+    "URL": "https://urbanomnibus.net/2014/07/precedents-for-experimentation-talking-libraries-with-shannon-mattern-and-nate-hill/"
+  },
+  {
+    "id": "87",
+    "title": "An Artist in Every Library",
+    "group": "Blog",
+    "path": "087-artist",
+    "author_first": "Jer",
+    "author_last": "Thorp",
+    "year": "2015",
+    "URL": "https://medium.com/@blprnt/an-artist-in-every-library-c0df05bf3c9"
+  },
+  {
+    "id": "88",
+    "title": "Reanimation Library",
+    "group": "Website",
+    "path": "088-reanimation-library",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "http://www.reanimationlibrary.org/"
+  },
+  {
+    "id": "89",
+    "title": "Underground New York Public Library",
+    "group": "Website",
+    "path": "089-underground-nypl",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "https://undergroundnewyorkpubliclibrary.com/"
+  },
+  {
+    "id": "90",
+    "title": "Hidden Histories \u2013 Public Libraries",
+    "group": "Blog",
+    "path": "090-hidden-histories",
+    "author_first": "Loraine",
+    "author_last": "Furter",
+    "year": "2015",
+    "URL": "https://www.lorainefurter.net/readme/hidden-histories.html"
+  },
+  {
+    "id": "91",
+    "title": "The Politics of Mass Digitization",
+    "group": "Book",
+    "path": "091-politics-digitization",
+    "author_first": "Nanna Bonde",
+    "author_last": "Thylstrup",
+    "year": "2018",
+    "URL": "https://www.are.na/block/5573949"
+  },
+  {
+    "id": "92",
+    "title": "Diversity, Social Justice, and the Future of Libraries",
+    "group": "Article",
+    "path": "092-diversity",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2014",
+    "URL": "https://chrisbourg.files.wordpress.com/2014/07/14-3morales.pdf"
+  },
+  {
+    "id": "93",
+    "title": "Libraries Will Abide",
+    "group": "Article",
+    "path": "093-abide",
+    "author_first": "Barbara",
+    "author_last": "Fister",
+    "year": "2011",
+    "URL": "https://www.libraryjournal.com/?detailStory=libraries-will-abide-peer-to-peer-review"
+  },
+  {
+    "id": "94",
+    "title": "The People's Library",
+    "group": "Article",
+    "path": "094-peoples",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "https://en.wikipedia.org/wiki/The_People%27s_Library"
+  },
+  {
+    "id": "95",
+    "title": "Occupy Wall Street Library",
+    "group": "Website",
+    "path": "095-occupy-library",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2015",
+    "URL": "https://peopleslibrary.wordpress.com/"
+  },
+  {
+    "id": "96",
+    "title": "Ancient and Modern Libraries: a Comparison",
+    "group": "Website",
+    "path": "096-ancient-modern",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "https://www.are.na/block/6199496"
+  },
+  {
+    "id": "97",
+    "title": "Academic Library Technology: Possible Elements and Ways to Combine Them",
+    "group": "Article",
+    "path": "097-academic-library",
+    "author_first": "Stacey",
+    "author_last": "Knight-Davis",
+    "year": "2019",
+    "URL": "https://www.are.na/block/5924551"
+  },
+  {
+    "id": "98",
+    "title": "Systems and Infrastructures Syllabys",
+    "group": "Syllabus",
+    "path": "098-systems-syllabus",
+    "author_first": "Miriam",
+    "author_last": "Posner",
+    "year": "2020",
+    "URL": "http://miriamposner.com/classes/is270w20/"
+  },
+  {
+    "id": "99",
+    "title": "Amid outcry, Seattle Public Library weighs decision to provide venue for \u2018radical feminist\u2019 event criticized as anti-trans",
+    "group": "Journalism",
+    "path": "099-seattle",
+    "author_first": "Crystal",
+    "author_last": "Paul",
+    "year": "2019",
+    "URL": "https://www.seattletimes.com/seattle-news/amid-outcry-seattle-public-library-weighs-decision-to-provide-venue-for-radical-feminist-event-criticized-as-anti-trans/"
+  },
+  {
+    "id": "100",
+    "title": "Changing Libraries \u2014 But Not Too Much",
+    "group": "Editorial",
+    "path": "100-changing-libraries",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2019",
+    "URL": "https://www.thecrimson.com/article/2019/10/17/editorial-changing-libraries/"
+  },
+  {
+    "id": "101",
+    "title": "Digital Library Federation ",
+    "group": "Document",
+    "path": "101-library-federation",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "https://www.are.na/block/5242986"
+  },
+  {
+    "id": "102",
+    "title": "Fiat Lux, Fiat Latebra: A Celebration of Historical Library Functions",
+    "group": "Book",
+    "path": "102-fiat-lux",
+    "author_first": "D.W.",
+    "author_last": "Krummel",
+    "year": "1999",
+    "URL": "https://www.ideals.illinois.edu/bitstream/handle/2142/3861/gslisoccasionalpv00000i00209.pdf?sequence=1"
+  },
+  {
+    "id": "103",
+    "title": "Library Systems Report 2019",
+    "group": "Report",
+    "path": "103-systems-report",
+    "author_first": "Marshall",
+    "author_last": "Breeding",
+    "year": "2019",
+    "URL": "https://americanlibrariesmagazine.org/2019/05/01/library-systems-report-2019/"
+  },
+  {
+    "id": "104",
+    "title": "Archives for Black Lives in Philadelphia",
+    "group": "Document",
+    "path": "104-black-lives",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2019",
+    "URL": "https://www.are.na/block/5156392"
+  },
+  {
+    "id": "105",
+    "title": "PEF librarians help blind and readers with disabilities access thousands of books",
+    "group": "Blog",
+    "path": "105-pef-libraries",
+    "author_first": "Kate",
+    "author_last": "Mostaccio",
+    "year": "2020",
+    "URL": "https://www.pef.org/media-center/the-communicator/pef-librarians-help-blind-and-readers-with-disabilities-access-thousands-of-books/"
+  },
+  {
+    "id": "106",
+    "title": "Baffled by archives: Part one",
+    "group": "Blog",
+    "path": "106-baffled-p1",
+    "author_first": "Tom",
+    "author_last": "Crane",
+    "year": "2019",
+    "URL": "https://blog.nationalarchives.gov.uk/baffled-by-archives-part-one/"
+  },
+  {
+    "id": "107",
+    "title": "Baffled by archives: Part two",
+    "group": "Blog",
+    "path": "107-baffled-p2",
+    "author_first": "Tom",
+    "author_last": "Crane",
+    "year": "2019",
+    "URL": "https://blog.nationalarchives.gov.uk/baffled-by-archives-part-two/"
+  },
+  {
+    "id": "108",
+    "title": "Participatory and Ethical Strategic Planning: What Academic Libraries Can Learn from Critical Management Studies",
+    "group": "Article",
+    "path": "108-strategic-planning",
+    "author_first": "Danya",
+    "author_last": "Leebaw",
+    "year": "2019",
+    "URL": "https://muse.jhu.edu/article/746742"
+  },
+  {
+    "id": "109",
+    "title": "Open Libraries",
+    "group": "Website",
+    "path": "109-open-libraries",
+    "author_first": "Chris",
+    "author_last": "Freeland",
+    "year": "2020",
+    "URL": "http://openlibraries.online/learn/"
+  },
+  {
+    "id": "110",
+    "title": "Building the People\u2019s Internet",
+    "group": "Article",
+    "path": "110-peoples-internet",
+    "author_first": "Greta",
+    "author_last": "Byrum",
+    "year": "2019",
+    "URL": "https://urbanomnibus.net/2019/10/building-the-peoples-internet/"
+  },
+  {
+    "id": "111",
+    "title": "Local links run the world",
+    "group": "Article",
+    "path": "111-local-links",
+    "author_first": "Deborah",
+    "author_last": "Gordon",
+    "year": "2019",
+    "URL": "https://aeon.co/essays/the-most-important-connection-in-any-network-is-the-local"
+  },
+  {
+    "id": "112",
+    "title": "NYU to Unveil Permanent Sound Art Installation in the Atrium of Bobst Library",
+    "group": "Blog",
+    "path": "112-sound-bobst",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2019",
+    "URL": "https://www.nyu.edu/about/news-publications/news/2019/september/nyu-to-unveil-permanent-sound-art-installation-in-the-atrium-of-.html"
+  },
+  {
+    "id": "113",
+    "title": "Uncertain Archives: Approaching the Unknowns,  Errors,  and  Vulnerabilities  of  Big Data through Cultural Theories of the Archive",
+    "group": "Article",
+    "path": "113-uncertain-archives",
+    "author_first": " ",
+    "author_last": "Multiple",
+    "year": "2019",
+    "URL": "https://ojs.library.queensu.ca/index.php/surveillance-and-society/article/view/12330/8733"
+  },
+  {
+    "id": "114",
+    "title": "Radical Collections: Re-examining the roots of collections, practices and information professions",
+    "group": "Article",
+    "path": "114-radical-collections",
+    "author_first": " ",
+    "author_last": "Multiple",
+    "year": "2018",
+    "URL": "https://humanities-digital-library.org/index.php/hdl/catalog/book/radical_collections"
+  },
+  {
+    "id": "115",
+    "title": "Soliciting Performance, Hiding Bias: Whiteness and Librarianship",
+    "group": "Blog",
+    "path": "115-whiteness-librarianship",
+    "author_first": "Angela",
+    "author_last": "Galvan",
+    "year": "2015",
+    "URL": "http://www.inthelibrarywiththeleadpipe.org/2015/soliciting-performance-hiding-bias-whiteness-and-librarianship/"
+  },
+  {
+    "id": "116",
+    "title": "Social Reproduction Theory in the Academic Library: Understanding the Implications of Socially Reproductive Labor as Labor",
+    "group": "Article",
+    "path": "116-academic-library",
+    "author_first": "Craig",
+    "author_last": "Build",
+    "year": "2019",
+    "URL": "https://ir.ua.edu/handle/123456789/6226"
+  },
+  {
+    "id": "117",
+    "title": "A Collective Effort : Healing, Trauma, and Precarity in Public Librarianship",
+    "group": "Article",
+    "path": "117-healing-precarity",
+    "author_first": "Ariel",
+    "author_last": "Hahn",
+    "year": "2019",
+    "URL": "https://www.are.na/block/4863877"
+  },
+  {
+    "id": "118",
+    "title": "Network Modeling Methods and Metadata Extraction for Library Access Records",
+    "group": "Article",
+    "path": "118-network-metadata",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2019",
+    "URL": "https://www.are.na/block/4691823"
+  },
+  {
+    "id": "119",
+    "title": "On Information Privilege",
+    "group": "Blog",
+    "path": "119-information-privilege",
+    "author_first": "Char",
+    "author_last": "Booth",
+    "year": "2014",
+    "URL": "https://infomational.com/2014/12/01/on-information-privilege/"
+  },
+  {
+    "id": "120",
+    "title": "Data Visualization as a Library Service: Embedding Visualization Services in the Library Research Lifecycle",
+    "group": "Article",
+    "path": "120-visualization-service",
+    "author_first": "Andrea; Michael",
+    "author_last": "Ogier; Stamper",
+    "year": "2018",
+    "URL": "https://escholarship.umassmed.edu/jeslib/vol7/iss1/5/"
+  },
+  {
+    "id": "121",
+    "title": "Design Thinking for Libraries",
+    "group": "Toolkit",
+    "path": "121-design-thinking",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2014",
+    "URL": "http://designthinkingforlibraries.com/"
+  },
+  {
+    "id": "122",
+    "title": "Library AI Initiative",
+    "group": "Website",
+    "path": "122-library-ai",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2020",
+    "URL": "https://library.stanford.edu/projects/artificial-intelligence/about"
+  },
+  {
+    "id": "123",
+    "title": "The once and future library: what might a research library look like in 2030?",
+    "group": "Video",
+    "path": "123-research-2030",
+    "author_first": "Torsten",
+    "author_last": "Reimer",
+    "year": "2019",
+    "URL": "https://www.youtube.com/watch?v=nvq-zQtMIJw"
+  },
+  {
+    "id": "124",
+    "title": "The End(s) of the Library",
+    "group": "Exhibit",
+    "path": "124-end-of",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2013",
+    "URL": "https://www.e-flux.com/announcements/33278/the-end-s-of-the-library/"
+  },
+  {
+    "id": "125",
+    "title": "Automated library system with retrieving and respositing robot",
+    "group": "Patent",
+    "path": "125-automated-library",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2000",
+    "URL": "https://patents.google.com/patent/US6535790B2/en"
+  },
+  {
+    "id": "126",
+    "title": "Library automatically borrowing-returning books system based on radio frequency recognizing technology, method, book arranging method",
+    "group": "Patent",
+    "path": "126-rf-return",
+    "author_first": " ",
+    "author_last": "Multiple",
+    "year": "2006",
+    "URL": "https://patents.google.com/patent/CN101064026B/en"
+  },
+  {
+    "id": "127",
+    "title": "Visual electronic library",
+    "group": "Patent",
+    "path": "127-visual-electronic",
+    "author_first": "Wei",
+    "author_last": "Jei",
+    "year": "2003",
+    "URL": "https://patents.google.com/patent/US20050102610A1/en"
+  },
+  {
+    "id": "128",
+    "title": "Virtual Library File System",
+    "group": "Patent",
+    "path": "128-virtual-file",
+    "author_first": "Paul",
+    "author_last": "Drallos",
+    "year": "2008",
+    "URL": "https://patents.google.com/patent/US20080216009A1/en"
+  },
+  {
+    "id": "129",
+    "title": "System and method for providing a searchable library of electronic documents to a user",
+    "group": "Patent",
+    "path": "129-searchable",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2007",
+    "URL": "https://patents.google.com/patent/US7287214B1/en"
+  },
+  {
+    "id": "130",
+    "title": "Computer-implemented interactive, virtual bookshelf system and method",
+    "group": "Patent",
+    "path": "130-interactive-bookshelf",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2007",
+    "URL": "https://patents.google.com/patent/US20080114729A1/en"
+  },
+  {
+    "id": "131",
+    "title": "Library circulation control system",
+    "group": "Patent",
+    "path": "131-circulation-control",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "1975",
+    "URL": "https://patents.google.com/patent/US4141078A/en"
+  },
+  {
+    "id": "132",
+    "title": "Method and apparatus for color coded library and shelved media system",
+    "group": "Patent",
+    "path": "132-apparatus-color",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "1994",
+    "URL": "https://patents.google.com/patent/US5449202A/en"
+  },
+  {
+    "id": "133",
+    "title": "Point of interest collaborative e-reading",
+    "group": "Patent",
+    "path": "133-collaborative-reading",
+    "author_first": "",
+    "author_last": "Multiple",
+    "year": "2014",
+    "URL": "https://patents.google.com/patent/US9733803B2/en"
+  },
+  {
+    "id": "134",
+    "title": "How Buildings Learn",
+    "group": "Video",
+    "path": "134-buildings-learn",
+    "author_first": "Stewart",
+    "author_last": "Brand",
+    "year": "1997",
+    "URL": "https://www.youtube.com/watch?v=AvEqfg2sIH0"
+  },
+  {
+    "id": "135",
+    "title": "The Big Archive: Art from Bureaucracy",
+    "group": "Book",
+    "path": "135-big-archive",
+    "author_first": "Sven",
+    "author_last": "Spieker",
+    "year": "2008",
+    "URL": "none"
+  },
+  {
+    "id": "136",
+    "title": "Paper Knowledge",
+    "group": "Book",
+    "path": "136-paper-knowledge",
+    "author_first": "Lisa",
+    "author_last": "Gitelman",
+    "year": "2014",
+    "URL": "none"
+  },
+  {
+    "id": "137",
+    "title": "Syria's Secret Library",
+    "group": "Book",
+    "path": "137-syria-secret",
+    "author_first": "Mike",
+    "author_last": "Thomson",
+    "year": "2019",
+    "URL": "none"
+  },
+  {
+    "id": "138",
+    "title": "The Atlas of New Librarianship",
+    "group": "Book",
+    "path": "138-atlas-librarianship",
+    "author_first": "R. David",
+    "author_last": "Lankes",
+    "year": "2011",
+    "URL": "none"
+  },
+  {
+    "id": "139",
+    "title": "The Cybrarian's Manual",
+    "group": "Book",
+    "path": "139-cybrarian-manual",
+    "author_first": "Pat",
+    "author_last": "Ensor",
+    "year": "1997",
+    "URL": "none"
+  },
+  {
+    "id": "140",
+    "title": "The Library: A Catalog of Wonders",
+    "group": "Book",
+    "path": "140-catalog-wonders",
+    "author_first": "Stuart",
+    "author_last": "Kellis",
+    "year": "2017",
+    "URL": "none"
+  },
+  {
+    "id": "141",
+    "title": "Library: An Unquiet History",
+    "group": "Book",
+    "path": "141-unquiet-history",
+    "author_first": "Matthew",
+    "author_last": "Battles",
+    "year": "2003",
+    "URL": "none"
+  },
+  {
+    "id": "142",
+    "title": "Libraries in the Ancient World",
+    "group": "Book",
+    "path": "142-ancient-world",
+    "author_first": "Lionel",
+    "author_last": "Casson",
+    "year": "2001",
+    "URL": "none"
+  },
+  {
+    "id": "143",
+    "title": "The Library at Night",
+    "group": "Book",
+    "path": "143-library-night",
+    "author_first": "Alberto",
+    "author_last": "Manguel",
+    "year": "2006",
+    "URL": "none"
+  },
+  {
+    "id": "144",
+    "title": "The Travelor, the Tower, and Worm",
+    "group": "Book",
+    "path": "144-traveler-tower-worm",
+    "author_first": "Alberto",
+    "author_last": "Manguel",
+    "year": "2013",
+    "URL": "none"
+  },
+  {
+    "id": "145",
+    "title": "The Library of Babel",
+    "group": "Short Story",
+    "path": "145-library-babel",
+    "author_first": "Jorge Luis",
+    "author_last": "Borges",
+    "year": "1941",
+    "URL": "https://sites.evergreen.edu/politicalshakespeares/wp-content/uploads/sites/226/2015/12/Borges-The-Library-of-Babel.pdf"
+  },
+  {
+    "id": "146",
+    "title": "Middlewhere: Landscapes of Library Logistics",
+    "group": "Article",
+    "path": "146-middlewhere",
+    "author_first": "Shannon",
+    "author_last": "Mattern",
+    "year": "2015",
+    "URL": "https://urbanomnibus.net/2015/06/middlewhere-landscapes-of-library-logistics/"
+  },
+  {
+    "id": "147",
+    "title": "Cedric Price: Responsive Architecture and Intelligent Buildings",
+    "group": "Chapter",
+    "path": "147-cedric-price",
+    "author_first": "Molly",
+    "author_last": "Wright Steenson",
+    "year": "2017",
+    "URL": "https://ieeexplore.ieee.org/document/8290865/authors#authors"
+  },
+  {
+    "id": "148",
+    "title": "Positivism, Foucault, and the Fantasia of the Library: Conceptions of Knowledge and the\r\nModern Library Experience",
+    "group": "Article",
+    "path": "148-positivism-foucault",
+    "author_first": "Gary P.",
+    "author_last": "Radford",
+    "year": "1992",
+    "URL": "none"
+  },
+  {
+    "id": "149",
+    "title": "Unpacking My Library",
+    "group": "Essay",
+    "path": "149-unpacking-library",
+    "author_first": "Walter",
+    "author_last": "Benjamin",
+    "year": "1931",
+    "URL": "http://art.yale.edu/file_columns/0000/2138/benjamin.pdf"
+  },
+  {
+    "id": "150",
+    "title": "Unpacking My Library: Artists and Their Books",
+    "group": "Book",
+    "path": "150-unpacking-artists",
+    "author_first": "Jo; Matthias",
+    "author_last": "Steffens; Neumann",
+    "year": "2017",
+    "URL": "https://yalebooks.yale.edu/book/9780300216981/unpacking-my-library"
+  },
+  {
+    "id": "151",
+    "title": "Shadow libraries - pirate archivists",
+    "group": "Talk",
+    "path": "151-pirate-archivists",
+    "author_first": "Bal\u00e1zs",
+    "author_last": "Bod\u00f3",
+    "year": "2014",
+    "URL": "https://re-publica.com/en/session/shadow-libraries-pirate-archivists"
+  }
+], 
+  "links": [
+  {
+    "source": "1",
+    "target": "6",
+    "value": 1
+  },
+  {
+    "source": "1",
+    "target": "7",
+    "value": 3
+  },
+  {
+    "source": "1",
+    "target": "41",
+    "value": 3
+  },
+  {
+    "source": "1",
+    "target": "43",
+    "value": 3
+  },
+  {
+    "source": "1",
+    "target": "86",
+    "value": 3
+  },
+  {
+    "source": "1",
+    "target": "146",
+    "value": 3
+  },
+  {
+    "source": "2",
+    "target": "87",
+    "value": 2
+  },
+  {
+    "source": "2",
+    "target": "2",
+    "value": 3
+  },
+  {
+    "source": "3",
+    "target": "142",
+    "value": 2
+  },
+  {
+    "source": "3",
+    "target": "4",
+    "value": 2
+  },
+  {
+    "source": "4",
+    "target": "3",
+    "value": 3
+  },
+  {
+    "source": "5",
+    "target": "75",
+    "value": 1
+  },
+  {
+    "source": "5",
+    "target": "77",
+    "value": 3
+  },
+  {
+    "source": "6",
+    "target": "1",
+    "value": 1
+  },
+  {
+    "source": "6",
+    "target": "7",
+    "value": 1
+  },
+  {
+    "source": "6",
+    "target": "41",
+    "value": 3
+  },
+  {
+    "source": "6",
+    "target": "43",
+    "value": 3
+  },
+  {
+    "source": "6",
+    "target": "86",
+    "value": 3
+  },
+  {
+    "source": "6",
+    "target": "146",
+    "value": 2
+  },
+  {
+    "source": "7",
+    "target": "6",
+    "value": 3
+  },
+  {
+    "source": "7",
+    "target": "1",
+    "value": 2
+  },
+  {
+    "source": "7",
+    "target": "41",
+    "value": 1
+  },
+  {
+    "source": "7",
+    "target": "43",
+    "value": 1
+  },
+  {
+    "source": "7",
+    "target": "86",
+    "value": 1
+  },
+  {
+    "source": "7",
+    "target": "146",
+    "value": 2
+  },
+  {
+    "source": "7",
+    "target": "14",
+    "value": 2
+  },
+  {
+    "source": "8",
+    "target": "138",
+    "value": 3
+  },
+  {
+    "source": "9",
+    "target": "11",
+    "value": 3
+  },
+  {
+    "source": "9",
+    "target": "134",
+    "value": 3
+  },
+  {
+    "source": "10",
+    "target": "141",
+    "value": 2
+  },
+  {
+    "source": "11",
+    "target": "9",
+    "value": 2
+  },
+  {
+    "source": "11",
+    "target": "134",
+    "value": 2
+  },
+  {
+    "source": "12",
+    "target": "52",
+    "value": 1
+  },
+  {
+    "source": "12",
+    "target": "60",
+    "value": 3
+  },
+  {
+    "source": "12",
+    "target": "112",
+    "value": 1
+  },
+  {
+    "source": "13",
+    "target": "33",
+    "value": 1
+  },
+  {
+    "source": "14",
+    "target": "54",
+    "value": 2
+  },
+  {
+    "source": "14",
+    "target": "65",
+    "value": 1
+  },
+  {
+    "source": "14",
+    "target": "104",
+    "value": 3
+  },
+  {
+    "source": "15",
+    "target": "6",
+    "value": 2
+  },
+  {
+    "source": "15",
+    "target": "7",
+    "value": 1
+  },
+  {
+    "source": "15",
+    "target": "35",
+    "value": 3
+  },
+  {
+    "source": "16",
+    "target": "17",
+    "value": 3
+  },
+  {
+    "source": "16",
+    "target": "18",
+    "value": 2
+  },
+  {
+    "source": "16",
+    "target": "141",
+    "value": 3
+  },
+  {
+    "source": "17",
+    "target": "16",
+    "value": 3
+  },
+  {
+    "source": "18",
+    "target": "16",
+    "value": 1
+  },
+  {
+    "source": "18",
+    "target": "18",
+    "value": 1
+  },
+  {
+    "source": "19",
+    "target": "145",
+    "value": 2
+  },
+  {
+    "source": "20",
+    "target": "6",
+    "value": 1
+  },
+  {
+    "source": "20",
+    "target": "7",
+    "value": 1
+  },
+  {
+    "source": "20",
+    "target": "65",
+    "value": 2
+  },
+  {
+    "source": "21",
+    "target": "2",
+    "value": 3
+  },
+  {
+    "source": "22",
+    "target": "2",
+    "value": 3
+  },
+  {
+    "source": "23",
+    "target": "135",
+    "value": 2
+  },
+  {
+    "source": "24",
+    "target": "65",
+    "value": 3
+  },
+  {
+    "source": "25",
+    "target": "65",
+    "value": 3
+  },
+  {
+    "source": "26",
+    "target": "27",
+    "value": 1
+  },
+  {
+    "source": "26",
+    "target": "28",
+    "value": 1
+  },
+  {
+    "source": "26",
+    "target": "144",
+    "value": 1
+  },
+  {
+    "source": "26",
+    "target": "145",
+    "value": 2
+  },
+  {
+    "source": "27",
+    "target": "1",
+    "value": 1
+  },
+  {
+    "source": "27",
+    "target": "26",
+    "value": 1
+  },
+  {
+    "source": "27",
+    "target": "28",
+    "value": 3
+  },
+  {
+    "source": "28",
+    "target": "26",
+    "value": 1
+  },
+  {
+    "source": "28",
+    "target": "27",
+    "value": 3
+  },
+  {
+    "source": "29",
+    "target": "6",
+    "value": 2
+  },
+  {
+    "source": "30",
+    "target": "13",
+    "value": 3
+  },
+  {
+    "source": "31",
+    "target": "3",
+    "value": 2
+  },
+  {
+    "source": "31",
+    "target": "32",
+    "value": 2
+  },
+  {
+    "source": "31",
+    "target": "59",
+    "value": 1
+  },
+  {
+    "source": "31",
+    "target": "65",
+    "value": 1
+  },
+  {
+    "source": "32",
+    "target": "31",
+    "value": 3
+  },
+  {
+    "source": "33",
+    "target": "6",
+    "value": 3
+  },
+  {
+    "source": "33",
+    "target": "13",
+    "value": 2
+  },
+  {
+    "source": "34",
+    "target": "31",
+    "value": 3
+  },
+  {
+    "source": "34",
+    "target": "33",
+    "value": 2
+  },
+  {
+    "source": "34",
+    "target": "35",
+    "value": 3
+  },
+  {
+    "source": "35",
+    "target": "7",
+    "value": 3
+  },
+  {
+    "source": "36",
+    "target": "13",
+    "value": 2
+  },
+  {
+    "source": "36",
+    "target": "34",
+    "value": 2
+  },
+  {
+    "source": "37",
+    "target": "3",
+    "value": 2
+  },
+  {
+    "source": "37",
+    "target": "6",
+    "value": 3
+  },
+  {
+    "source": "37",
+    "target": "46",
+    "value": 3
+  },
+  {
+    "source": "37",
+    "target": "98",
+    "value": 3
+  },
+  {
+    "source": "38",
+    "target": "101",
+    "value": 3
+  },
+  {
+    "source": "39",
+    "target": "6",
+    "value": 3
+  },
+  {
+    "source": "39",
+    "target": "37",
+    "value": 2
+  },
+  {
+    "source": "39",
+    "target": "46",
+    "value": 2
+  },
+  {
+    "source": "40",
+    "target": "6",
+    "value": 1
+  },
+  {
+    "source": "40",
+    "target": "125",
+    "value": 1
+  },
+  {
+    "source": "40",
+    "target": "126",
+    "value": 3
+  },
+  {
+    "source": "40",
+    "target": "127",
+    "value": 1
+  },
+  {
+    "source": "40",
+    "target": "128",
+    "value": 3
+  },
+  {
+    "source": "40",
+    "target": "129",
+    "value": 1
+  },
+  {
+    "source": "40",
+    "target": "130",
+    "value": 1
+  },
+  {
+    "source": "40",
+    "target": "131",
+    "value": 1
+  },
+  {
+    "source": "40",
+    "target": "132",
+    "value": 1
+  },
+  {
+    "source": "40",
+    "target": "147",
+    "value": 2
+  },
+  {
+    "source": "41",
+    "target": "6",
+    "value": 2
+  },
+  {
+    "source": "41",
+    "target": "7",
+    "value": 3
+  },
+  {
+    "source": "41",
+    "target": "1",
+    "value": 1
+  },
+  {
+    "source": "41",
+    "target": "43",
+    "value": 3
+  },
+  {
+    "source": "41",
+    "target": "86",
+    "value": 2
+  },
+  {
+    "source": "41",
+    "target": "146",
+    "value": 1
+  },
+  {
+    "source": "42",
+    "target": "6",
+    "value": 3
+  },
+  {
+    "source": "43",
+    "target": "6",
+    "value": 2
+  },
+  {
+    "source": "43",
+    "target": "7",
+    "value": 3
+  },
+  {
+    "source": "43",
+    "target": "41",
+    "value": 2
+  },
+  {
+    "source": "43",
+    "target": "1",
+    "value": 3
+  },
+  {
+    "source": "43",
+    "target": "86",
+    "value": 1
+  },
+  {
+    "source": "43",
+    "target": "146",
+    "value": 2
+  },
+  {
+    "source": "44",
+    "target": "6",
+    "value": 2
+  },
+  {
+    "source": "44",
+    "target": "38",
+    "value": 3
+  },
+  {
+    "source": "44",
+    "target": "84",
+    "value": 2
+  },
+  {
+    "source": "45",
+    "target": "32",
+    "value": 3
+  },
+  {
+    "source": "45",
+    "target": "34",
+    "value": 3
+  },
+  {
+    "source": "46",
+    "target": "48",
+    "value": 2
+  },
+  {
+    "source": "46",
+    "target": "114",
+    "value": 2
+  },
+  {
+    "source": "47",
+    "target": "38",
+    "value": 2
+  },
+  {
+    "source": "48",
+    "target": "46",
+    "value": 3
+  },
+  {
+    "source": "49",
+    "target": "50",
+    "value": 2
+  },
+  {
+    "source": "49",
+    "target": "63",
+    "value": 2
+  },
+  {
+    "source": "50",
+    "target": "31",
+    "value": 2
+  },
+  {
+    "source": "50",
+    "target": "49",
+    "value": 2
+  },
+  {
+    "source": "50",
+    "target": "63",
+    "value": 3
+  },
+  {
+    "source": "51",
+    "target": "55",
+    "value": 1
+  },
+  {
+    "source": "51",
+    "target": "67",
+    "value": 1
+  },
+  {
+    "source": "52",
+    "target": "12",
+    "value": 3
+  },
+  {
+    "source": "53",
+    "target": "51",
+    "value": 3
+  },
+  {
+    "source": "53",
+    "target": "67",
+    "value": 3
+  },
+  {
+    "source": "54",
+    "target": "7",
+    "value": 2
+  },
+  {
+    "source": "55",
+    "target": "53",
+    "value": 1
+  },
+  {
+    "source": "56",
+    "target": "49",
+    "value": 3
+  },
+  {
+    "source": "57",
+    "target": "50",
+    "value": 3
+  },
+  {
+    "source": "58",
+    "target": "78",
+    "value": 3
+  },
+  {
+    "source": "59",
+    "target": "65",
+    "value": 3
+  },
+  {
+    "source": "60",
+    "target": "84",
+    "value": 1
+  },
+  {
+    "source": "61",
+    "target": "58",
+    "value": 3
+  },
+  {
+    "source": "62",
+    "target": "145",
+    "value": 2
+  },
+  {
+    "source": "62",
+    "target": "148",
+    "value": 1
+  },
+  {
+    "source": "62",
+    "target": "149",
+    "value": 2
+  },
+  {
+    "source": "63",
+    "target": "50",
+    "value": 1
+  },
+  {
+    "source": "63",
+    "target": "142",
+    "value": 3
+  },
+  {
+    "source": "64",
+    "target": "9",
+    "value": 3
+  },
+  {
+    "source": "64",
+    "target": "62",
+    "value": 3
+  },
+  {
+    "source": "64",
+    "target": "134",
+    "value": 1
+  },
+  {
+    "source": "65",
+    "target": "59",
+    "value": 2
+  },
+  {
+    "source": "65",
+    "target": "104",
+    "value": 2
+  },
+  {
+    "source": "66",
+    "target": "65",
+    "value": 2
+  },
+  {
+    "source": "67",
+    "target": "13",
+    "value": 1
+  },
+  {
+    "source": "67",
+    "target": "68",
+    "value": 1
+  },
+  {
+    "source": "68",
+    "target": "67",
+    "value": 1
+  },
+  {
+    "source": "69",
+    "target": "8",
+    "value": 2
+  },
+  {
+    "source": "69",
+    "target": "77",
+    "value": 2
+  },
+  {
+    "source": "70",
+    "target": "70",
+    "value": 3
+  },
+  {
+    "source": "71",
+    "target": "14",
+    "value": 1
+  },
+  {
+    "source": "72",
+    "target": "35",
+    "value": 1
+  },
+  {
+    "source": "73",
+    "target": "50",
+    "value": 3
+  },
+  {
+    "source": "73",
+    "target": "63",
+    "value": 3
+  },
+  {
+    "source": "73",
+    "target": "74",
+    "value": 3
+  },
+  {
+    "source": "74",
+    "target": "50",
+    "value": 1
+  },
+  {
+    "source": "74",
+    "target": "63",
+    "value": 3
+  },
+  {
+    "source": "74",
+    "target": "73",
+    "value": 3
+  },
+  {
+    "source": "75",
+    "target": "77",
+    "value": 3
+  },
+  {
+    "source": "76",
+    "target": "77",
+    "value": 2
+  },
+  {
+    "source": "77",
+    "target": "75",
+    "value": 3
+  },
+  {
+    "source": "78",
+    "target": "41",
+    "value": 3
+  },
+  {
+    "source": "78",
+    "target": "82",
+    "value": 1
+  },
+  {
+    "source": "79",
+    "target": "6",
+    "value": 3
+  },
+  {
+    "source": "80",
+    "target": "60",
+    "value": 3
+  },
+  {
+    "source": "81",
+    "target": "143",
+    "value": 2
+  },
+  {
+    "source": "82",
+    "target": "78",
+    "value": 3
+  },
+  {
+    "source": "82",
+    "target": "123",
+    "value": 3
+  },
+  {
+    "source": "83",
+    "target": "85",
+    "value": 3
+  },
+  {
+    "source": "83",
+    "target": "86",
+    "value": 3
+  },
+  {
+    "source": "84",
+    "target": "89",
+    "value": 2
+  },
+  {
+    "source": "84",
+    "target": "94",
+    "value": 3
+  },
+  {
+    "source": "85",
+    "target": "86",
+    "value": 3
+  },
+  {
+    "source": "86",
+    "target": "6",
+    "value": 3
+  },
+  {
+    "source": "86",
+    "target": "7",
+    "value": 2
+  },
+  {
+    "source": "86",
+    "target": "41",
+    "value": 3
+  },
+  {
+    "source": "86",
+    "target": "43",
+    "value": 3
+  },
+  {
+    "source": "86",
+    "target": "1",
+    "value": 2
+  },
+  {
+    "source": "86",
+    "target": "146",
+    "value": 2
+  },
+  {
+    "source": "87",
+    "target": "106",
+    "value": 2
+  },
+  {
+    "source": "87",
+    "target": "107",
+    "value": 2
+  },
+  {
+    "source": "88",
+    "target": "62",
+    "value": 3
+  },
+  {
+    "source": "88",
+    "target": "67",
+    "value": 1
+  },
+  {
+    "source": "89",
+    "target": "73",
+    "value": 1
+  },
+  {
+    "source": "90",
+    "target": "63",
+    "value": 2
+  },
+  {
+    "source": "91",
+    "target": "73",
+    "value": 3
+  },
+  {
+    "source": "91",
+    "target": "77",
+    "value": 2
+  },
+  {
+    "source": "91",
+    "target": "84",
+    "value": 2
+  },
+  {
+    "source": "92",
+    "target": "93",
+    "value": 1
+  },
+  {
+    "source": "92",
+    "target": "123",
+    "value": 3
+  },
+  {
+    "source": "93",
+    "target": "123",
+    "value": 2
+  },
+  {
+    "source": "94",
+    "target": "95",
+    "value": 3
+  },
+  {
+    "source": "95",
+    "target": "16",
+    "value": 2
+  },
+  {
+    "source": "95",
+    "target": "17",
+    "value": 2
+  },
+  {
+    "source": "95",
+    "target": "18",
+    "value": 2
+  },
+  {
+    "source": "96",
+    "target": "102",
+    "value": 2
+  },
+  {
+    "source": "96",
+    "target": "142",
+    "value": 2
+  },
+  {
+    "source": "97",
+    "target": "83",
+    "value": 1
+  },
+  {
+    "source": "97",
+    "target": "85",
+    "value": 3
+  },
+  {
+    "source": "98",
+    "target": "6",
+    "value": 3
+  },
+  {
+    "source": "99",
+    "target": "92",
+    "value": 3
+  },
+  {
+    "source": "100",
+    "target": "85",
+    "value": 3
+  },
+  {
+    "source": "100",
+    "target": "92",
+    "value": 1
+  },
+  {
+    "source": "101",
+    "target": "63",
+    "value": 1
+  },
+  {
+    "source": "102",
+    "target": "138",
+    "value": 2
+  },
+  {
+    "source": "102",
+    "target": "141",
+    "value": 3
+  },
+  {
+    "source": "102",
+    "target": "142",
+    "value": 2
+  },
+  {
+    "source": "103",
+    "target": "100",
+    "value": 3
+  },
+  {
+    "source": "104",
+    "target": "16",
+    "value": 1
+  },
+  {
+    "source": "104",
+    "target": "17",
+    "value": 1
+  },
+  {
+    "source": "104",
+    "target": "18",
+    "value": 3
+  },
+  {
+    "source": "104",
+    "target": "65",
+    "value": 1
+  },
+  {
+    "source": "105",
+    "target": "92",
+    "value": 1
+  },
+  {
+    "source": "106",
+    "target": "2",
+    "value": 3
+  },
+  {
+    "source": "106",
+    "target": "87",
+    "value": 3
+  },
+  {
+    "source": "107",
+    "target": "2",
+    "value": 2
+  },
+  {
+    "source": "107",
+    "target": "87",
+    "value": 3
+  },
+  {
+    "source": "108",
+    "target": "120",
+    "value": 1
+  },
+  {
+    "source": "108",
+    "target": "123",
+    "value": 3
+  },
+  {
+    "source": "109",
+    "target": "91",
+    "value": 1
+  },
+  {
+    "source": "110",
+    "target": "75",
+    "value": 2
+  },
+  {
+    "source": "110",
+    "target": "77",
+    "value": 2
+  },
+  {
+    "source": "110",
+    "target": "111",
+    "value": 3
+  },
+  {
+    "source": "111",
+    "target": "75",
+    "value": 3
+  },
+  {
+    "source": "112",
+    "target": "60",
+    "value": 1
+  },
+  {
+    "source": "113",
+    "target": "98",
+    "value": 3
+  },
+  {
+    "source": "113",
+    "target": "106",
+    "value": 3
+  },
+  {
+    "source": "113",
+    "target": "107",
+    "value": 3
+  },
+  {
+    "source": "113",
+    "target": "135",
+    "value": 3
+  },
+  {
+    "source": "114",
+    "target": "31",
+    "value": 2
+  },
+  {
+    "source": "114",
+    "target": "49",
+    "value": 3
+  },
+  {
+    "source": "115",
+    "target": "59",
+    "value": 1
+  },
+  {
+    "source": "115",
+    "target": "65",
+    "value": 2
+  },
+  {
+    "source": "116",
+    "target": "123",
+    "value": 3
+  },
+  {
+    "source": "117",
+    "target": "105",
+    "value": 1
+  },
+  {
+    "source": "117",
+    "target": "115",
+    "value": 2
+  },
+  {
+    "source": "118",
+    "target": "113",
+    "value": 2
+  },
+  {
+    "source": "119",
+    "target": "113",
+    "value": 3
+  },
+  {
+    "source": "120",
+    "target": "123",
+    "value": 1
+  },
+  {
+    "source": "121",
+    "target": "83",
+    "value": 2
+  },
+  {
+    "source": "121",
+    "target": "85",
+    "value": 1
+  },
+  {
+    "source": "122",
+    "target": "83",
+    "value": 1
+  },
+  {
+    "source": "122",
+    "target": "85",
+    "value": 2
+  },
+  {
+    "source": "123",
+    "target": "124",
+    "value": 1
+  },
+  {
+    "source": "124",
+    "target": "93",
+    "value": 1
+  },
+  {
+    "source": "124",
+    "target": "123",
+    "value": 1
+  },
+  {
+    "source": "125",
+    "target": "147",
+    "value": 3
+  },
+  {
+    "source": "126",
+    "target": "147",
+    "value": 3
+  },
+  {
+    "source": "127",
+    "target": "147",
+    "value": 3
+  },
+  {
+    "source": "128",
+    "target": "147",
+    "value": 3
+  },
+  {
+    "source": "129",
+    "target": "147",
+    "value": 2
+  },
+  {
+    "source": "130",
+    "target": "147",
+    "value": 2
+  },
+  {
+    "source": "131",
+    "target": "147",
+    "value": 2
+  },
+  {
+    "source": "132",
+    "target": "147",
+    "value": 1
+  },
+  {
+    "source": "133",
+    "target": "144",
+    "value": 3
+  },
+  {
+    "source": "134",
+    "target": "9",
+    "value": 3
+  },
+  {
+    "source": "134",
+    "target": "11",
+    "value": 2
+  },
+  {
+    "source": "134",
+    "target": "147",
+    "value": 3
+  },
+  {
+    "source": "135",
+    "target": "87",
+    "value": 3
+  },
+  {
+    "source": "136",
+    "target": "148",
+    "value": 3
+  },
+  {
+    "source": "137",
+    "target": "57",
+    "value": 3
+  },
+  {
+    "source": "137",
+    "target": "71",
+    "value": 1
+  },
+  {
+    "source": "138",
+    "target": "67",
+    "value": 3
+  },
+  {
+    "source": "138",
+    "target": "68",
+    "value": 1
+  },
+  {
+    "source": "139",
+    "target": "143",
+    "value": 2
+  },
+  {
+    "source": "140",
+    "target": "142",
+    "value": 3
+  },
+  {
+    "source": "141",
+    "target": "10",
+    "value": 2
+  },
+  {
+    "source": "141",
+    "target": "143",
+    "value": 1
+  },
+  {
+    "source": "141",
+    "target": "144",
+    "value": 1
+  },
+  {
+    "source": "142",
+    "target": "3",
+    "value": 1
+  },
+  {
+    "source": "142",
+    "target": "63",
+    "value": 2
+  },
+  {
+    "source": "142",
+    "target": "96",
+    "value": 1
+  },
+  {
+    "source": "143",
+    "target": "144",
+    "value": 2
+  },
+  {
+    "source": "143",
+    "target": "145",
+    "value": 2
+  },
+  {
+    "source": "144",
+    "target": "143",
+    "value": 1
+  },
+  {
+    "source": "144",
+    "target": "145",
+    "value": 1
+  },
+  {
+    "source": "145",
+    "target": "143",
+    "value": 2
+  },
+  {
+    "source": "146",
+    "target": "6",
+    "value": 1
+  },
+  {
+    "source": "146",
+    "target": "7",
+    "value": 1
+  },
+  {
+    "source": "146",
+    "target": "41",
+    "value": 3
+  },
+  {
+    "source": "146",
+    "target": "43",
+    "value": 2
+  },
+  {
+    "source": "146",
+    "target": "86",
+    "value": 2
+  },
+  {
+    "source": "146",
+    "target": "1",
+    "value": 3
+  },
+  {
+    "source": "147",
+    "target": "134",
+    "value": 3
+  },
+  {
+    "source": "148",
+    "target": "62",
+    "value": 3
+  },
+  {
+    "source": "149",
+    "target": "63",
+    "value": 2
+  },
+  {
+    "source": "149",
+    "target": "150",
+    "value": 3
+  },
+  {
+    "source": "150",
+    "target": "149",
+    "value": 3
+  },
+  {
+    "source": "151",
+    "target": "49",
+    "value": 3
+  },
+  {
+    "source": "151",
+    "target": "50",
+    "value": 3
+  },
+  {
+    "source": "151",
+    "target": "63",
+    "value": 2
+  },
+  {
+    "source": "151",
+    "target": "73",
+    "value": 3
+  },
+  {
+    "source": "151",
+    "target": "74",
+    "value": 1
+  }
+]
+}

@@ -1,3 +1,3 @@
-# ITP Library
+# Masters Thesis for NYU ITP - Library of Wanders
 
-A digital home for the ITP Library and other bibliophilic explorations. 
+Live: [libraryofwanders.online](https://libraryofwanders.online/)

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" 
+         rel="stylesheet">
+    <script src ="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    
+    <style>
+        *, ::after, ::before {
+            box-sizing: border-box;
+        }
+
+        body { 
+            margin: 0; 
+            font-family: Archivo, sans-serif; 
+            background-color: #ece8fd;
+        }
+
+        /* BOOTSTRAP CSS */
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent
+}
+
+nav {
+    display: block
+}
+
+body {
+    margin: 0;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+ul ol,
+ul ul {
+    margin-bottom: 0
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none
+}
+
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+    color: inherit;
+    text-decoration: none
+}
+
+a:not([href]):not([tabindex]):focus {
+    outline: 0
+}
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.navbar {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: .5rem 1rem
+}
+
+.navbar>.container,
+.navbar>.container-fluid {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+@supports ((position:-webkit-sticky) or (position:sticky)) {
+.sticky-top {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1020
+}
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff
+}
+
+.nav-fill .nav-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center
+}
+
+.nav-justified .nav-item {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    text-decoration: none
+}
+
+.nav-link.disabled {
+    color: #6c757d
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #dee2e6
+}
+
+.nav-tabs .nav-link.disabled {
+    color: #6c757d;
+    background-color: transparent;
+    border-color: transparent
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #007bff
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+}
+
+.justify-content-end {
+    -webkit-box-pack: end!important;
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important
+}
+
+/* END OF BOOTSTRAP CSS */
+
+.row {
+		  display: -ms-flexbox; /* IE10 */
+		  display: flex;
+		  -ms-flex-wrap: wrap; /* IE10 */
+		  flex-wrap: wrap;
+		  padding: 0 4px;
+		}
+
+		/* FLEXBOX FUN */
+
+		/* Create four equal columns that sits next to each other */
+		.column {
+		  -ms-flex: 25%; /* IE10 */
+		  flex: 25%;
+		  max-width: 25%;
+		  padding: 0 4px;
+		}
+
+		.column img {
+		  
+		  vertical-align: middle;
+		  width: 100%;
+		}
+
+		/* Responsive layout - makes a two column-layout instead of four columns */
+		@media screen and (max-width: 800px) {
+		  .column {
+		    -ms-flex: 50%;
+		    flex: 50%;
+		    max-width: 50%;
+		  }
+		}
+
+		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+		  .column {
+		    -ms-flex: 100%;
+		    flex: 100%;
+		    max-width: 100%;
+		  }
+        }
+        
+        .portal_header {
+		  text-align: center;
+          padding: 32px;
+          width: 65vw;
+          
+        }
+        
+        .portal_header h1{
+          line-height: 3rem;
+          padding-bottom: 2rem;
+          
+		}
+
+		.portal_container{
+/*			width: 500px;
+*/			background-color: #fff;
+        }
+        
+        .resultContainer{
+            width: 65vw;
+            background-color: #fff;
+            padding: 2rem;
+        }
+
+        p{
+            margin: 0px;
+        }
+        h1 {
+            margin-top: 5px;
+            margin-bottom: 0px;
+            font-size: 3rem;
+        }
+
+        .add_more{
+            background-color: #FAD849; 
+            color: #000;
+            padding: 4px;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            -o-border-radius: 2px;
+            -ms-border-radius: 2px;
+            border-radius: 3px;
+        }
+
+        .add_more a {
+            color: #000;
+         
+        }
+
+    </style>
+
+    <script>
+
+        let data;
+        let onTop; 
+
+        function makeGrid(arenaResponse){
+
+            // table of 4, new row for every modulo 4
+
+            onTop = arenaResponse.length; 
+
+            console.log(arenaResponse[0]["image"]["display"]["url"]);
+            let columnList = document.getElementsByClassName("column");
+
+            for (i=0; i < arenaResponse.length; i++){
+
+                let colNum = i % 4;
+                let imageURL = arenaResponse[i]["image"]["display"]["url"];
+                let imageElem = document.createElement("img");
+                let description = arenaResponse[i]["description"]; 
+                imageElem.setAttribute("src", imageURL);
+                imageElem.setAttribute("class", "draggable");
+                imageElem.setAttribute("alt", description);
+
+                columnList[colNum].appendChild(imageElem); 
+
+                console.log(colNum);
+            }
+
+            $(function() {
+
+                $( ".draggable" ).draggable();
+                $( ".draggable" ).on('click', function(){
+                    
+                    ++onTop; 
+                    let el = $(this);
+                    el.css("z-index", onTop);
+
+                })
+                
+	         });
+
+        }
+
+        async function getItems(endpoint){
+
+            // console.log("About to fetch.");
+
+            const response = await fetch(endpoint);
+            data = await response.json();
+            // console.log(data['contents']);
+            makeGrid(data["contents"]);
+
+        }
+
+        window.onload = (event) => {
+
+            let slug = "does-every-research-library-need-a-digital-humanities-center"; 
+            let portalArena = "https://api.are.na/v2/channels/" + slug + "/contents"; 
+
+            getItems(portalArena).catch(error => {
+                    console.error(error);
+            });
+
+        };      
+
+    </script>
+    </head>
+    <body>
+
+
+
+        <nav class="navbar sticky-top navbar-light custom-bg justify-content-end">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" href="/paper/">What Can A Library Do?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://libraryofwanders.online/">Catalog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://docs.google.com/presentation/d/18oeiSmFFtSAV0OPrVJuyLWvn7CVbryQNmM6uYqgfub8/edit?usp=sharing">Process</a>
+              </li>
+        
+            </ul>
+          </nav>
+
+          <center>
+          <div class="portal_header">
+            <h1>Does Every Research Library Need a Digital Humanities Center?</h1>
+            <p>Jennifer Schaffner & Ricky Erway (2014).
+                <br>
+               <span class="add_more"><a href="https://www.are.na/library-of-wanders/does-every-research-library-need-a-digital-humanities-center">Add more things to this page on Are.na</a></span>
+            </p>
+  
+          </div>
+          
+          <div class="resultContainer">
+              <div class="row">
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+              </div>
+          </div>
+        </center>
+
+    </body>
+    </html>

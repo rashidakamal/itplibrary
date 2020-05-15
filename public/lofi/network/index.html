@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <head>
 
-<!-- CODE SOURCE: https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8 -->
+<!-- CODE FORCE-DIRECTED GRAPH: https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8 -->
+<!-- CODE FOR ZOOM/PAN: https://bl.ocks.org/patricker/0434d73a1b513baf8558d60daee78418 -->
+
  <meta charset="utf-8">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="../style.css">
  <script src="https://d3js.org/d3.v4.min.js"></script>
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <style>
 
 body {
   background-color: #ece8fd;
+  font-family: Archivo, sans-serif;
 }
 .links line {
   stroke: #999;
@@ -28,7 +32,6 @@ text {
 }
 
 .network {
-  margin-top: 3rem;
 }
 
 .info_box {
@@ -61,6 +64,53 @@ text {
     border-radius: 2px;
 }
 
+.welcome {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+
+  font-family: Archivo;
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 5.5rem;
+  padding-top: 60vh;
+  padding-left: 5vw;
+
+}
+
+.welcome h1{
+
+  margin: 0px;
+  padding: 0px;
+  font-family: Archivo;
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 5.5rem;
+
+}
+
+.welcome p {
+
+  margin: 0px;
+  padding-left: 10px;
+  font-family: Archivo;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+
+}
+
+.welcome span {
+  background-color: #FAD849; 
+  padding: 4px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 3px;
+}
+
 
 </style>
 </head>
@@ -86,12 +136,31 @@ text {
     </ul>
   </nav>
 
-  <div class="network"><center><svg width="1200" height="900"></svg></center></div>
+<div class="welcome">
+    
+        <h1>LIBRARY<br>OF<br>WANDERS</h1>
+        <p><span>Click, drag, pull on the nodes for more.</span></p>
+
+  </div>
+
+  <div class="network"><center><svg height="900"></svg></center></div>
   <div class="info_box">tesst</div>
+
+
+<script>
+  $(".welcome").click(function(){
+    var el = $(this); 
+
+    el.css("z-index",-1); 
+    el.css("visibility", "hidden");
+  })
+
+</script>
+
 <script>
 
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
+var svg = d3.select("svg").attr("width", window.innerWidth); 
+var width = +svg.attr("width"),
     height = +svg.attr("height");
 
 var custom_colors = ["#1B1F2A", "#EFEFEF", "#F6C3CC", "#DAD1FC", "#FAD849", "#F4A98E", "#9ff2b5"];
@@ -106,14 +175,17 @@ var simulation = d3.forceSimulation()
 d3.json("bib.json", function(error, graph) {
   if (error) throw error;
 
-  var link = svg.append("g")
+  var g = svg.append("g")
+          .attr("class", "everything");
+
+  var link = g.append("g")
     .attr("class", "links")
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
     .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
-  var node = svg.append("g")
+  var node = g.append("g")
     .attr("class", "nodes")
     .selectAll("g")
     .data(graph.nodes)
@@ -181,6 +253,18 @@ d3.json("bib.json", function(error, graph) {
           return "translate(" + d.x + "," + d.y + ")";
         })
   }
+
+
+  var zoom_handler = d3.zoom()
+            .on("zoom", zoom_actions);
+
+  zoom_handler(svg);
+
+  //Zoom functions 
+  function zoom_actions(){
+    g.attr("transform", d3.event.transform)
+  }
+
 });
 
 function dragstarted(d) {
@@ -199,6 +283,7 @@ function dragended(d) {
     d.fx = null;
     d.fy = null;
 }
+
 
 </script>
   

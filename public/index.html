@@ -1,50 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-  <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
-  <title>Wanderings: A Library on Wild</title>
+<!-- CODE FORCE-DIRECTED GRAPH: https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8 -->
+<!-- CODE FOR ZOOM/PAN: https://bl.ocks.org/patricker/0434d73a1b513baf8558d60daee78418 -->
 
-  <style type="text/css">
-      body {margin: 0;}
-  </style>
+ <meta charset="utf-8">
 
-  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/style.css">
+ <script src="https://d3js.org/d3.v4.min.js"></script>
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<style>
+
+body {
+  background-color: #ece8fd;
+  font-family: Archivo, sans-serif;
+}
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #ece8fd;
+  stroke-width: 2px;
+}
+
+text {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.network {
+}
+
+.info_box {
+  background-color: #fff;
+  width: 25rem;
+  margin: 5rem;
+  padding: 1rem;
+
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 10;
+  visibility: hidden;
+
+  border: 4px solid black;
+
+/*  border-color: #1B1F2A;
+  border-style: solid;
+  border: 2px;*/
+}
+
+.info_box a {
+  background-color: #FAD849;
+  color: #1B1F2A;
+  padding: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.welcome {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+
+  font-family: Archivo;
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 5.5rem;
+  padding-top: 60vh;
+  padding-left: 5vw;
+
+}
+
+.welcome h1{
+
+  margin: 0px;
+  padding: 0px;
+  font-family: Archivo;
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 5.5rem;
+
+}
+
+.welcome p {
+
+  margin: 0px;
+  padding-left: 10px;
+  font-family: Archivo;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+
+}
+
+.welcome span {
+  background-color: #FAD849; 
+  padding: 4px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 3px;
+}
+
+
+</style>
 </head>
-
 <body>
-  <noscript>
-    You need to enable JavaScript to run this app.
-  </noscript>
-  <div id="root"></div>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <nav class="navbar sticky-top navbar-light custom-bg justify-content-end">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" href="/paper/">What Can A Library Do?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Catalog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://docs.google.com/presentation/d/18oeiSmFFtSAV0OPrVJuyLWvn7CVbryQNmM6uYqgfub8/edit?usp=sharing">Process</a>
+      </li>
+
+    </ul>
+  </nav>
+
+<div class="welcome">
+    
+        <h1>LIBRARY<br>OF<br>WANDERS</h1>
+        <p><span>Click, drag, pull on the nodes for more.</span></p>
+
+  </div>
+
+  <div class="network"><center><svg height="900"></svg></center></div>
+  <div class="info_box">tesst</div>
+
+
+<script>
+  $(".welcome").click(function(){
+    var el = $(this); 
+
+    el.css("z-index",-1); 
+    el.css("visibility", "hidden");
+  })
+
+</script>
+
+<script>
+
+var svg = d3.select("svg").attr("width", window.innerWidth); 
+var width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var custom_colors = ["#1B1F2A", "#EFEFEF", "#F6C3CC", "#DAD1FC", "#FAD849", "#F4A98E", "#9ff2b5"];
+// var color = d3.scaleOrdinal(d3.schemeCategory20);
+var color = d3.scaleOrdinal(custom_colors);
+
+var simulation = d3.forceSimulation()
+    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+    .force("charge", d3.forceManyBody())
+    .force("center", d3.forceCenter(width / 2, height / 2));
+
+d3.json("./data/bib.json", function(error, graph) {
+  if (error) throw error;
+
+  var g = svg.append("g")
+          .attr("class", "everything");
+
+  var link = g.append("g")
+    .attr("class", "links")
+    .selectAll("line")
+    .data(graph.links)
+    .enter().append("line")
+    .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+
+  var node = g.append("g")
+    .attr("class", "nodes")
+    .selectAll("g")
+    .data(graph.nodes)
+    .enter().append("g")
+    
+  var circles = node.append("circle")
+  
+    .attr("r", 10)
+    .attr("fill", function(d) { 
+      // console.log(color(d.group));
+      return color(d.group); })
+    .on("click", function(d) {
+      console.log("I've been clicked");
+
+      console.log(d);
+      var htmlContent = "<strong>" + d.title + "</strong><br><hr>";
+      htmlContent += "<strong>Author: </strong>" + d.author_first + " " + d.author_last+ "<br>";
+      htmlContent += "<strong>Type: </strong>" + d.group+ "<br>";
+      htmlContent += "<strong>Year: </strong>" + d.year+ "<br>"; 
+      htmlContent += "<a href=\"" + d.URL + "\">SOURCE</a>" + "  ";
+      htmlContent += "<a href=\"" + "./portals/" + d.path + ".html" + "\">PORTAL</a>" + "<br>"; 
+
+      console.log(htmlContent)
+
+      d3.select(".info_box").attr("style", "visibility: visible").html(htmlContent); 
+    })
+    .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+
+  var lables = node.append("text")
+      .text(function(d) {
+        var info = " ";
+
+        if ((parseInt(d.id) % 8) == 0) {
+          info = d.title;
+        } else if (parseInt(d.id) == 62){
+          info = d.title;
+        }
+        return info;
+      })
+      .attr('x', 6)
+      .attr('y', 3);
+
+  node.append("title")
+  .text(function(d) { return d.author_first; });
+
+  simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
+
+  simulation.force("link")
+      .links(graph.links);
+
+  function ticked() {
+    link
+        .attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node
+        .attr("transform", function(d) {
+          return "translate(" + d.x + "," + d.y + ")";
+        })
+  }
+
+
+  var zoom_handler = d3.zoom()
+            .on("zoom", zoom_actions);
+
+  zoom_handler(svg);
+
+  //Zoom functions 
+  function zoom_actions(){
+    g.attr("transform", d3.event.transform)
+  }
+
+});
+
+function dragstarted(d) {
+    if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+}
+
+function dragged(d) {
+    d.fx = d3.event.x;
+    d.fy = d3.event.y;
+}
+
+function dragended(d) {
+    if (!d3.event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+}
+
+
+</script>
+  
+
+
 </body>
-
-</html>

@@ -8,7 +8,6 @@
 	<meta name="author" content="Rashida Kamal">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="tufte.css">
 	<link rel="stylesheet" href="../style.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
@@ -22,7 +21,7 @@
 		  margin: 0;
 		}
 
-		.header {
+		.portal_header {
 		  text-align: center;
 		  padding: 32px;
 		}
@@ -34,6 +33,8 @@
 		  flex-wrap: wrap;
 		  padding: 0 4px;
 		}
+
+		/* FLEXBOX FUN */
 
 		/* Create four equal columns that sits next to each other */
 		.column {
@@ -66,17 +67,56 @@
 		    max-width: 100%;
 		  }
 		}
+ 
+		/* 3D "Card Flip" Animation */
+		/* https://3dtransforms.desandro.com/card-flip */
+
+		.scene {
+			width: 200px;
+			height: 260px;
+			perspective: 600px;
+		}
+
+		.card {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			transition: transform 1s;
+			transform-style: preserve-3d;
+		}
+
+		.card__face {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			backface-visibility: hidden;
+		}
+
+		.card__face--front {
+		background: red;
+		}
+
+		.card__face--back {
+		background: blue;
+		transform: rotateY( 180deg );
+		}
+
+		.card.is-flipped {
+		transform: rotateY(180deg);
+		}
+
+
+		.portal_container {
+			width: 500px;
+		}
+
 		</style>
 
 	<title>What Can A Library Do?</title>
 
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script>
-		$( function() {
-		$( "#draggable" ).draggable();
-		} );
-	</script>
+
 
 </head>
 
@@ -103,7 +143,7 @@
 	</nav>
 	<div class="container">
 
-		<div class="header">
+		<div class="portal_header">
 		  <h1>Fantasies of the Library</h1>
 		  <p>Anna-Sophie Springer & Etienne Turpin (eds.), 2014. <br><strong>Associated Entities: </strong><span class="adler">Prelinger Library</span>, <span class="helton">The Library of Babel</span>, <span class="warburg">Aby Warburg</span></p>
 
@@ -112,6 +152,8 @@
 		<!-- Photo Grid -->
 		<div class="row"> 
 		  <div class="column">
+
+
 
 		    <img src="../../images/062-fantasies/cover1.png" style="width:100%">
 		    <img src="../../images/062-fantasies/44-mobile_library.png" style="width:100%">
@@ -142,6 +184,13 @@
 
 	</div>
 
+
+<script>
+var card = document.querySelector('.card');
+card.addEventListener( 'click', function() {
+  card.classList.toggle('is-flipped');
+});
+</script>
 
 
 	

@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="local version">
+	<meta name="author" content="Rashida Kamal">
+
+	<link rel="stylesheet" href="../style.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" 
+         rel = "stylesheet">
+	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	
+	<style>
+
+		*, ::after, ::before {
+		    box-sizing: border-box;
+		}
+
+		body { 
+			margin: 0; 
+			font-family: Archivo, sans-serif; 
+		}
+
+/* CARD CSS */
+
+		.scene {
+		  width: 300px;
+	  	  height: 300px;
+/*		  border: 1px solid #CCC;
+*/		  margin: 40px 0;
+		  perspective: 600px;
+		  display: inline-block;
+		}
+
+		.card {
+		  width: 100%;
+		  height: 100%;
+		  transition: transform 1s;
+		  transform-style: preserve-3d;
+		  cursor: pointer;
+		  position: relative;
+		  display: table;
+		}
+
+		.card.is-flipped {
+		  transform: rotateY(180deg);
+		}
+
+		.card__face {
+		  position: absolute;
+		  width: 100%;
+		  height: 100%;
+/*		  line-height: 260px;
+*/		  color: black;
+		  text-align: center;
+		  font-weight: bold;
+		  font-size: 40px;
+		  -webkit-backface-visibility: hidden;
+		  backface-visibility: hidden;
+		  display: table-row;
+		}
+
+		.card__face--front {
+		  background: #fcfcfc;
+		}
+
+		.card__face--back {
+		  background: #fcfcfc;
+/*		  min-height: 260px;
+*/		  transform: rotateY(180deg);
+		}
+
+/* END OF CARD CSS */
+/* BOOTSTRAP CSS */
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent
+}
+
+nav {
+    display: block
+}
+
+body {
+    margin: 0;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+
+ul ol,
+ul ul {
+    margin-bottom: 0
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none
+}
+
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+    color: inherit;
+    text-decoration: none
+}
+
+a:not([href]):not([tabindex]):focus {
+    outline: 0
+}
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.navbar {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: .5rem 1rem
+}
+
+.navbar>.container,
+.navbar>.container-fluid {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+@supports ((position:-webkit-sticky) or (position:sticky)) {
+.sticky-top {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1020
+}
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff
+}
+
+.nav-fill .nav-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center
+}
+
+.nav-justified .nav-item {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    text-decoration: none
+}
+
+.nav-link.disabled {
+    color: #6c757d
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #dee2e6
+}
+
+.nav-tabs .nav-link.disabled {
+    color: #6c757d;
+    background-color: transparent;
+    border-color: transparent
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #007bff
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+}
+
+.justify-content-end {
+    -webkit-box-pack: end!important;
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important
+}
+
+/* END OF BOOTSTRAP CSS */
+
+
+.row {
+		  display: -ms-flexbox; /* IE10 */
+		  display: flex;
+		  -ms-flex-wrap: wrap; /* IE10 */
+		  flex-wrap: wrap;
+		  padding: 0 4px;
+		}
+
+		/* FLEXBOX FUN */
+
+		/* Create four equal columns that sits next to each other */
+		.column {
+		  -ms-flex: 25%; /* IE10 */
+		  flex: 25%;
+		  max-width: 25%;
+		  padding: 0 4px;
+		}
+
+		.column img {
+		  
+		  vertical-align: middle;
+		  width: 100%;
+		}
+
+		/* Responsive layout - makes a two column-layout instead of four columns */
+		@media screen and (max-width: 800px) {
+		  .column {
+		    -ms-flex: 50%;
+		    flex: 50%;
+		    max-width: 50%;
+		  }
+		}
+
+		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+		  .column {
+		    -ms-flex: 100%;
+		    flex: 100%;
+		    max-width: 100%;
+		  }
+		}
+
+		.portal_container{
+/*			width: 500px;
+*/			background-color: #fff;
+		}
+
+		</style>
+
+</head>
+<body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<nav class="navbar sticky-top navbar-light custom-bg justify-content-end">
+		<ul class="nav justify-content-end">
+			<li class="nav-item">
+				<a class="nav-link active" href="/lofi/">What Can A Library Do?</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/lofi/network/">Catalog</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://docs.google.com/presentation/d/1C-pTa3FMMnGt5OAsK46pxzJLg8OVFobE6b07iLLSb0Q/edit?usp=sharing">Process</a>
+			</li>
+
+		</ul>
+	</nav>
+
+<center>
+<div class="portal_container">
+<div class="row"> 
+
+<div class="column">
+
+		<div class="scene scene--card draggable">
+		  <div class="card">
+		    <div class="card__face card__face--front"><img src="../../images/062-fantasies/cover1.png" style="width:100%"></div>
+		    <div class="card__face card__face--back">back</div>
+		  </div>
+		</div>
+
+		<div class="scene scene--card draggable">
+		  <div class="card">
+		    <div class="card__face card__face--front"><img src="../../images/062-fantasies/44-mobile_library.png" style="width:100%"></div>
+		    <div class="card__face card__face--back">back</div>
+		  </div>
+		</div>
+
+</div>
+
+<div class="column">
+
+	<div class="scene scene--card draggable">
+	  <div class="card">
+	    <div class="card__face card__face--front"><img src="../../images/062-fantasies/cover1.png" style="width:100%"></div>
+	    <div class="card__face card__face--back">back</div>
+	  </div>
+	</div>
+
+</div>
+
+</div>
+</div>
+</center> 
+<script>
+
+	// https://3dtransforms.desandro.com/card-flip
+	// https://www.tutorialspoint.com/jqueryui/jqueryui_draggable.htm
+
+	var cards = document.querySelectorAll('.card');
+
+	var test = document.querySelector('.card');
+
+	console.log(cards);
+
+	for (i = 0; i < cards.length; i++) {
+	cards[i].addEventListener( 'click', function() {
+	  cards[i].classList.toggle('is-flipped');
+	});
+	}
+
+	$(function() {
+	            $( ".draggable" ).draggable();
+	         });
+
+</script>
+
+</body>
+</html>

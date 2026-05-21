@@ -27,6 +27,19 @@
 		    border-top: 1px solid rgba(0, 0, 0, 0.1);
 		    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 		}
+
+		.video-embed {
+		  width: 100%;
+		  max-width: 100%;
+		  aspect-ratio: 16 / 9;
+		}
+		
+		.video-embed iframe {
+		  width: 100%;
+		  height: 100%;
+		  display: block;
+		  border: 0;
+		}
 	</style>
 
 </head>
@@ -60,8 +73,9 @@
 
 
 	<div class="container col-sm-7">
-
+		<div class="video-embed">
 		<iframe title="vimeo-player" src="https://player.vimeo.com/video/425730667?h=522d21ad66" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+		</div>
 		<center><hr class="style-six"></center>
 		<p>Libraries, in their most robust realization, are capable of not only housing the imaginaries of many worlds, but also of bringing those imaginaries into being. In this notion of the library, we can understand its systems of classification, cataloging, and shelving as both giving shape to the reality of the world, and inevitably, structuring the knowledge projects made possible by its scaffoldings.</p>
 
